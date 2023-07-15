@@ -1,8 +1,8 @@
 # .dotfiles
 
-This repository contains my dotfiles for my macOS setup.
+This repository contains my dotfiles for Pradumnasaraf's macOS setup.
 
-## Steps to setup a new mac
+### Steps to setup a new mac
 
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
 
@@ -49,8 +49,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 brew services start mongodb-community
 ```
 
-## Steps to Update the Brewfile.
+### Steps to Update or Create the Brewfile
 
 ```bash
 brew bundle dump --describe --file ~/.dotfiles/Brewfile
 ```
+
+## Security
+
+If you discover any security related issues, please check the [security policy](SECURITY.md) for more information.
