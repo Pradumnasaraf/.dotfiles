@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Pradumna Saraf
+	email = pradumnasaraf@gmail.com
+[init]
+	defaultBranch = main
+[help]
+	autocorrect = 0
+[elp]
+	autocorrect = 10
