@@ -2,9 +2,12 @@
 [user]
 	name = Pradumna Saraf
 	email = pradumnasaraf@gmail.com
+	signingkey = DD1F32FF45B45D8B
 [init]
 	defaultBranch = main
 [help]
 	autocorrect = 0
 [elp]
 	autocorrect = 10
+[commit]
+	gpgsign = true
