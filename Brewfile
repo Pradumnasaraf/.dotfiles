@@ -33,8 +33,6 @@ brew "vim"
 brew "wget"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
-# Kubernetes misconfiguration testing
-brew "kubescape/tap/kubescape-cli"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Ookla Speedtest
@@ -77,6 +75,6 @@ vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "PKief.material-icon-theme"
-vscode "rangav.vscode-thunder-client"
+vscode "Postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.LiveServer"
