@@ -1,12 +1,18 @@
 tap "goreleaser/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "kubescape/tap"
 tap "mongodb/brew"
 tap "ngrok/ngrok"
 tap "teamookla/speedtest"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # GitHub command-line tool
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
@@ -23,14 +29,14 @@ brew "mongosh"
 brew "nvm"
 # Highly capable, feature-rich programming language
 brew "perl"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
 # High-performance, schema-free, document-oriented database
@@ -41,6 +47,8 @@ brew "teamookla/speedtest/speedtest"
 cask "boop"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "google-cloud-sdk"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Kubernetes IDE
@@ -69,6 +77,7 @@ vscode "golang.go"
 vscode "GraphQL.vscode-graphql"
 vscode "GraphQL.vscode-graphql-syntax"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
@@ -78,3 +87,5 @@ vscode "PKief.material-icon-theme"
 vscode "Postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.LiveServer"
+vscode "unifiedjs.vscode-mdx"
+vscode "yzhang.markdown-all-in-one"
