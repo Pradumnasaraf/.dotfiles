@@ -28,22 +28,33 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+5. Add Homebrew's installed location to your `$PATH` in `~/.zprofile`:
+
+```bash
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+6. Install all the software in the Brewfile located in the root of this repo.
+
+```bash
 brew bundle --file ~/.dotfiles/Brewfile
 ```
 
-5. Install Oh My Zsh.
+7. Install Oh My Zsh.
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-6. Install zsh-autosuggestions extension.
+8. Install zsh-autosuggestions extension.
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-7. Start MongoDB and set it to launch at startup. [Docs for reference](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+9. Start MongoDB and set it to launch at startup. [Docs for reference](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
 ```bash
 brew services start mongodb-community
