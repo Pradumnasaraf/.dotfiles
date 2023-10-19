@@ -41,6 +41,8 @@ brew "teamookla/speedtest/speedtest"
 cask "boop"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Web browser
+cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Kubernetes IDE
