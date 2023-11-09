@@ -1,7 +1,6 @@
 tap "goreleaser/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "kubescape/tap"
 tap "mongodb/brew"
 tap "ngrok/ngrok"
 tap "teamookla/speedtest"
