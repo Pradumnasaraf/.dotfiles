@@ -66,6 +66,18 @@ brew services start mongodb-community
 brew bundle dump --describe --file ~/.dotfiles/Brewfile
 ```
 
+### Setting up a GPG Key for signing commits
+
+Follow the steps mentioned in the link below to setup a GPG key for signing commits.
+https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
+After setting up to sign commits, run the following commands to configure git to sign all commits by default.
+
+```bash
+git config --global user.signingkey <GPG Key ID>
+git config --global commit.gpgsign true
+```
+
 ## Security
 
 If you discover any security related issues, please check the [security policy](SECURITY.md) for more information.
