@@ -1,7 +1,6 @@
 tap "goreleaser/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "kubescape/tap"
 tap "mongodb/brew"
 tap "ngrok/ngrok"
 tap "teamookla/speedtest"
@@ -47,6 +46,8 @@ brew "teamookla/speedtest/speedtest"
 cask "boop"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Web browser
+cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Terminal emulator as alternative to Apple's Terminal app
