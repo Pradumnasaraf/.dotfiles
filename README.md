@@ -60,6 +60,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 brew services start mongodb-community
 ```
 
+To check if MongoDB is running, run the following command:
+
+```bash
+brew services list
+or
+mongosh
+```
+
 ### Steps to Update or Create the Brewfile
 
 ```bash
