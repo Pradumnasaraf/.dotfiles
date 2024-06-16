@@ -74,6 +74,13 @@ mongosh
 brew bundle dump --describe --file ~/.dotfiles/Brewfile
 ```
 
+If the Brewfile already exists, the above command will overwrite it. If you want to append to the existing Brewfile, use the following command:
+
+```bash
+brew bundle dump --describe --file ~/.dotfiles/Brewfile --force
+```
+
+
 ### Setting up a GPG Key for signing commits
 
 Follow the steps mentioned in the link below to setup a GPG key for signing commits.
