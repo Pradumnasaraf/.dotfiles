@@ -38,8 +38,8 @@ brew "mongodb/brew/mongodb-community"
 brew "teamookla/speedtest/speedtest"
 # Scriptable scratchpad for developers
 cask "boop"
-# Web browser
-cask "google-chrome"
+# Voice and text chat software
+cask "discord"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Kubernetes IDE
@@ -57,6 +57,7 @@ cask "visual-studio-code"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
 vscode "bierner.markdown-preview-github-styles"
+vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
 vscode "formulahendry.code-runner"
