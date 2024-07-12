@@ -38,6 +38,10 @@ brew "mongodb/brew/mongodb-community"
 brew "teamookla/speedtest/speedtest"
 # Scriptable scratchpad for developers
 cask "boop"
+# Design tool
+cask "canva"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Voice and text chat software
 cask "discord"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -50,6 +54,8 @@ cask "mongodb-compass"
 cask "ngrok"
 # Collaboration platform for API development
 cask "postman"
+# Screen recorder and editor
+cask "screen-studio"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
