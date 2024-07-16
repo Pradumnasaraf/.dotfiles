@@ -44,6 +44,10 @@ cask "canva"
 cask "chatgpt"
 # Voice and text chat software
 cask "discord"
+# Network scanner
+cask "fing"
+# Web browser
+cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Kubernetes IDE
