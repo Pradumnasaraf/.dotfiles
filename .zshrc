@@ -135,3 +135,6 @@ alias gco="git checkout"
 alias gcom="git checkout main"
 alias gcb="git checkout -b"
 alias gcm="git commit -m"
+
+# Golang
+alias gfmt="diff <(gofmt -d .) <(echo -n)"

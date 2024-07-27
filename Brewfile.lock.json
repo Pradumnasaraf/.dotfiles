@@ -560,7 +560,7 @@
         }
       },
       "google-chrome": {
-        "version": "120.0.6099.199",
+        "version": "126.0.6478.127",
         "options": {
           "full_name": "google-chrome"
         }
@@ -636,6 +636,12 @@
         "options": {
           "full_name": "screen-studio"
         }
+      },
+      "fing": {
+        "version": "3.6.3",
+        "options": {
+          "full_name": "fing"
+        }
       }
     },
     "vscode": {
@@ -683,7 +689,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",
         "Xcode": "15.4",
-        "macOS": "14.4.1"
+        "macOS": "14.5"
       }
     }
   }
