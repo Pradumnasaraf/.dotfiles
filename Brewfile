@@ -58,6 +58,8 @@ cask "mongodb-compass"
 cask "ngrok"
 # Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Screen recorder and editor
 cask "screen-studio"
 # Native GUI tool for relational databases
