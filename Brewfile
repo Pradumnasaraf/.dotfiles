@@ -48,6 +48,8 @@ cask "discord"
 cask "fing"
 # Web browser
 cask "google-chrome"
+# Grammarly for desktop
+cask "grammarly-desktop"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Kubernetes IDE
