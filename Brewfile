@@ -12,6 +12,8 @@ brew "go"
 brew "helm"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
@@ -64,10 +66,14 @@ cask "postman"
 cask "raycast"
 # Screen recorder and editor
 cask "screen-studio"
+# Team communication and collaboration software
+# cask "slack"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
 vscode "bierner.markdown-preview-github-styles"
@@ -94,6 +100,8 @@ vscode "pkief.material-icon-theme"
 vscode "postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.liveserver"
+vscode "smallcloud.codify"
+vscode "streetsidesoftware.code-spell-checker"
 vscode "unifiedjs.vscode-mdx"
 vscode "wayou.vscode-todo-highlight"
 vscode "yzhang.markdown-all-in-one"
