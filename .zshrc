@@ -124,6 +124,8 @@ alias kube="kubectl"
 alias m="minikube"
 alias mini="minikube"
 alias ms="minikube start"
+alias kctx="kubectx"
+alias kns="kubens"
 
 # Git
 alias g="git"
