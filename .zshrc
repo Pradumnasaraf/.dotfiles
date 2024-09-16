@@ -138,5 +138,14 @@ alias gcom="git checkout main"
 alias gcb="git checkout -b"
 alias gcm="git commit -m"
 
+## Delete all local branches except main
+alias grl="git branch | grep -v " main$" | xargs git branch -D"
+
+## Delete all the remote branches
+alias grb="git fetch --prune"
+
 # Golang
 alias gfmt="diff <(gofmt -d .) <(echo -n)"
+
+# Speedtest
+alias speed="speedtest"
