@@ -12,10 +12,10 @@ brew "go"
 brew "helm"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Run local Kubernetes cluster in Docker
+brew "kind"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
-# Run a Kubernetes cluster locally
-brew "minikube"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Manage multiple Node.js versions
@@ -67,7 +67,7 @@ cask "raycast"
 # Screen recorder and editor
 cask "screen-studio"
 # Team communication and collaboration software
-# cask "slack"
+cask "slack"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
@@ -96,6 +96,7 @@ vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
+vscode "oderwat.indent-rainbow"
 vscode "pkief.material-icon-theme"
 vscode "postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
