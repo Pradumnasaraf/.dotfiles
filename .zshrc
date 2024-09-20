@@ -103,6 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Export Google Gemini API Key
+export GEMINI_API_KEY=********
+
 if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"
 fi
@@ -120,6 +123,7 @@ export PATH="$GOPATH/bin:$PATH"
 
 # DevOps
 alias k="kubectl"
+alias K="kubectl"
 alias kube="kubectl"
 alias m="minikube"
 alias mini="minikube"
@@ -129,6 +133,7 @@ alias kns="kubens"
 
 # Git
 alias g="git"
+alias G="git"
 alias gs="git status"
 alias gp="git push"
 alias gpl="git pull"
@@ -139,10 +144,10 @@ alias gcb="git checkout -b"
 alias gcm="git commit -m"
 
 ## Delete all local branches except main
-alias grl="git branch | grep -v " main$" | xargs git branch -D"
+alias grl="git branch | grep -v ' main$' | xargs git branch -D"
 
 ## Delete all the remote branches
-alias grb="git fetch --prune"
+alias grr="git fetch --prune"
 
 # Golang
 alias gfmt="diff <(gofmt -d .) <(echo -n)"

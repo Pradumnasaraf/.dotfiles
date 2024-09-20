@@ -12,6 +12,8 @@ brew "go"
 brew "helm"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Tool that can switch between kubectl contexts easily and create aliases
@@ -101,7 +103,6 @@ vscode "pkief.material-icon-theme"
 vscode "postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.liveserver"
-vscode "smallcloud.codify"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "unifiedjs.vscode-mdx"
 vscode "wayou.vscode-todo-highlight"
