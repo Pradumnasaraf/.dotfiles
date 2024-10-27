@@ -47,9 +47,7 @@ cask "canva"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Voice and text chat software
-cask "discord"
-# Network scanner
-cask "fing"
+# cask "discord"
 # Web browser
 cask "google-chrome"
 # Grammarly for desktop

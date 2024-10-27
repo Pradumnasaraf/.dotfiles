@@ -142,6 +142,7 @@ alias gco="git checkout"
 alias gcom="git checkout main"
 alias gcb="git checkout -b"
 alias gcm="git commit -m"
+alias gitlog="git lg"
 
 ## Delete all local branches except main
 alias grl="git branch | grep -v ' main$' | xargs git branch -D"

@@ -2,7 +2,7 @@
 [user]
 	name = Pradumna Saraf
 	email = pradumnasaraf@gmail.com
-	signingkey = 5094340D04B30FDF 
+	signingkey = 5094340D04B30FDF
 [init]
 	defaultBranch = main
 [help]
@@ -19,3 +19,4 @@
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	pl = pull
 	ps = push
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
