@@ -20,6 +20,8 @@ brew "kind"
 brew "kubectx"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
+# Find newer versions of dependencies than what your package.json allows
+brew "npm-check-updates"
 # Manage multiple Node.js versions
 brew "nvm"
 # Highly capable, feature-rich programming language
@@ -47,7 +49,7 @@ cask "canva"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Voice and text chat software
-# cask "discord"
+cask "discord"
 # Web browser
 cask "google-chrome"
 # Grammarly for desktop
@@ -56,6 +58,10 @@ cask "grammarly-desktop"
 cask "iterm2"
 # Kubernetes IDE
 cask "lens"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
+# Adaptive brightness for external displays
+cask "lunar"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
