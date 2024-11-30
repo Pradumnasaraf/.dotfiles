@@ -54,8 +54,6 @@ cask "discord"
 cask "google-chrome"
 # Grammarly for desktop
 cask "grammarly-desktop"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Kubernetes IDE
 cask "lens"
 # Open-source cross-platform alternative to AirDrop
