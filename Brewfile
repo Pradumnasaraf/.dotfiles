@@ -60,8 +60,6 @@ cask "iterm2"
 cask "lens"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
-# Adaptive brightness for external displays
-cask "lunar"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -82,6 +80,8 @@ cask "visual-studio-code"
 cask "vlc"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
+# Rust-based terminal
+cask "warp"
 vscode "bierner.markdown-preview-github-styles"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
