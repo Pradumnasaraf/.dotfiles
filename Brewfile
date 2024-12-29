@@ -36,12 +36,14 @@ brew "vim"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
-# Deliver Go binaries as fast and easily as possible
+# Release engineering, simplified
 brew "goreleaser/tap/goreleaser"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
+# Chromium based browser
+cask "arc"
 # Scriptable scratchpad for developers
 cask "boop"
 # Design tool
