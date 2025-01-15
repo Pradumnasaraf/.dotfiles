@@ -4,8 +4,6 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Path to execute psql cli tool
-ATH:/Applications/Postgres.app/Contents/Versions/17/binexport PATH=$P
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -136,15 +134,14 @@ alias kns="kubens"
 # Git
 alias g="git"
 alias G="git"
-alias gs="git status"
-alias gp="git push"
-alias gpl="git pull"
-alias gl="git log"
+alias gs="git st"
+alias gp="git ps"
+alias gpl="git pl"
+alias gl="git lg"
 alias gco="git checkout"
 alias gcom="git checkout main"
 alias gcb="git checkout -b"
 alias gcm="git commit -m"
-alias gitlog="git lg"
 
 ## Delete all local branches except main
 alias grl="git branch | grep -v ' main$' | xargs git branch -D"
@@ -157,3 +154,11 @@ alias gfmt="diff <(gofmt -d .) <(echo -n)"
 
 # Speedtest
 alias speed="speedtest"
+
+
+# Terraform
+alias tf="terraform"
+
+# Docker
+alias d="docker"
+alias dc="docker compose"

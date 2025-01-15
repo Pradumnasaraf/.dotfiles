@@ -1,4 +1,5 @@
 tap "goreleaser/tap"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "mongodb/brew"
@@ -32,14 +33,22 @@ brew "perl"
 brew "python@3.11"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Web Assembly Binary Toolkit
+brew "wabt"
+# Standalone JIT-style runtime for WebAssembly, using Cranelift
+brew "wasmtime"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
 brew "yarn"
 # Release engineering, simplified
 brew "goreleaser/tap/goreleaser"
+# Terraform
+brew "hashicorp/tap/terraform"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Ookla Speedtest
@@ -105,7 +114,6 @@ vscode "ms-vscode.cmake-tools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
-vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
 vscode "pkief.material-icon-theme"
