@@ -4,7 +4,10 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "mongodb/brew"
 tap "ngrok/ngrok"
+tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
+# Run your GitHub Actions locally
+brew "act"
 # LLVM bytecode to JavaScript compiler
 brew "emscripten"
 # GitHub command-line tool
@@ -51,6 +54,8 @@ brew "goreleaser/tap/goreleaser"
 brew "hashicorp/tap/terraform"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# The Open Source DevOps Assistant
+brew "robusta-dev/holmesgpt/holmesgpt"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
 # Chromium based browser
@@ -67,12 +72,16 @@ cask "discord"
 cask "grammarly-desktop"
 # Kubernetes IDE
 cask "lens"
+# Discover, download, and run local LLMs
+cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Get up and running with large language models locally
+cask "ollama"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
