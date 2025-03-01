@@ -80,7 +80,6 @@ If the Brewfile already exists, the above command will overwrite it. If you want
 brew bundle dump --describe --file ~/.dotfiles/Brewfile --force
 ```
 
-
 ### Setting up a GPG Key for signing commits
 
 Follow the steps mentioned in the link below to setup a GPG key for signing commits.
@@ -93,6 +92,9 @@ git config --global user.signingkey <GPG Key ID>
 git config --global commit.gpgsign true
 ```
 
-## Security
+### Side Apps to Install (Not available in Brew)
+
+- [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12)
+- [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12)
 
 If you discover any security related issues, please check the [security policy](SECURITY.md) for more information.

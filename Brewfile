@@ -8,6 +8,8 @@ tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
 # Run your GitHub Actions locally
 brew "act"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # LLVM bytecode to JavaScript compiler
 brew "emscripten"
 # GitHub command-line tool
@@ -76,6 +78,8 @@ cask "lens"
 cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Adaptive brightness for external displays
+cask "lunar"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost

@@ -155,10 +155,12 @@ alias gfmt="diff <(gofmt -d .) <(echo -n)"
 # Speedtest
 alias speed="speedtest"
 
-
 # Terraform
 alias tf="terraform"
 
 # Docker
 alias d="docker"
 alias dc="docker compose"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
