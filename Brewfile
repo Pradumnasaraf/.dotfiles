@@ -104,6 +104,8 @@ cask "vlc"
 cask "vnc-viewer"
 # Rust-based terminal
 cask "warp"
+# Video communication and virtual meeting platform
+cask "zoom"
 vscode "bierner.markdown-preview-github-styles"
 vscode "dtsvet.vscode-wasm"
 vscode "eamodio.gitlens"
