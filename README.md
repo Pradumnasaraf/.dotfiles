@@ -68,6 +68,14 @@ or
 mongosh
 ```
 
+10. Other nuances and quirks to be aware of:
+    
+- Import the **Raycast** Config from this dir by going to Raycast > Settings > Import/Export > Import and selecting the `raycast.rayconfig` file.
+- Install [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12), [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776?mt=12) and [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) via Apple App Store (Now available on brew)
+- Import Passwords to Arc Browser profile.
+- Set Mouse to **Natural Scrolling** by going to System Preferences > Mouse > Scroll Direction: Natural.
+- Turn on **Path Bar** and **Status Bar** in Finder by going to View > Show Path Bar and View > Show Status Bar.
+
 ### Steps to Update or Create the Brewfile
 
 ```bash
@@ -92,9 +100,6 @@ git config --global user.signingkey <GPG Key ID>
 git config --global commit.gpgsign true
 ```
 
-### Side Apps to Install (Not available in Brew)
-
-- [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12)
-- [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12)
+### Security
 
 If you discover any security related issues, please check the [security policy](SECURITY.md) for more information.

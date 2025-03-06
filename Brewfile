@@ -26,6 +26,8 @@ brew "k9s"
 brew "kind"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Exposes your localhost to the world for easy testing and sharing
+brew "localtunnel"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Find newer versions of dependencies than what your package.json allows
@@ -70,6 +72,10 @@ cask "canva"
 cask "chatgpt"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker"
+# Tools to protect your emails and files
+cask "gpg-suite"
 # Grammarly for desktop
 cask "grammarly-desktop"
 # Kubernetes IDE
@@ -84,6 +90,8 @@ cask "lunar"
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Get up and running with large language models locally
 cask "ollama"
 # Collaboration platform for API development
@@ -130,6 +138,7 @@ vscode "ms-vscode.cmake-tools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
 vscode "pkief.material-icon-theme"
