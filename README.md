@@ -70,6 +70,7 @@ mongosh
 
 10. Other nuances and quirks to be aware of:
 
+- Turn on  App Management permissions, so Homebrew will delete and reinstall the app. To do that do to Settings > Privacy & Security > App Management and add or enable your terminal.
 - Turn of the Keyboard Shortcut for Spotlight by going to System Preferences > Keyboard > Shortcuts > Spotlight and unchecking the `Show Spotlight Search` and `Show Finder Search Window` options. Reason to use `⌘ + Space` for Raycast.
 - Import the **Raycast** Config from this dir by going to Raycast > Settings > Import/Export > Import and selecting the `raycast.rayconfig` file.
 - Install [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12), [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776?mt=12) and [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) via Apple App Store (Now available on brew)
