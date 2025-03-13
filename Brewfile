@@ -16,6 +16,8 @@ brew "emscripten"
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Fast linters runner for Go
+brew "golangci-lint"
 # Kubernetes package manager
 brew "helm"
 # Lightweight and flexible command-line JSON processor
@@ -123,6 +125,7 @@ vscode "formulahendry.code-runner"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
+vscode "gitlab.gitlab-workflow"
 vscode "gitpod.gitpod-desktop"
 vscode "golang.go"
 vscode "graphql.vscode-graphql"

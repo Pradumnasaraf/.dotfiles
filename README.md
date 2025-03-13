@@ -78,7 +78,7 @@ mongosh
 - Set Mouse to **Natural Scrolling** by going to System Preferences > Mouse > Scroll Direction: Natural.
 - Turn on **Path Bar** and **Status Bar** in Finder by going to View > Show Path Bar and View > Show Status Bar.
 - In Settings > Control Center, Under **Control Center Modules**: Change Display, Sound, Focus to _Always Show in Menu Bar_. Under **Other Modules**: Turn on `Show Percentage` for Battery and `Show in Control Center` for Keyboard Brightness. Under **Menu Bar Only** Change Spotlight `Don't Show in Menu Bar` and For Weather, Change `Show in Menu Bar`.
-- Make sure to uncheck the option - `Open at Login`, for the apps which I don't want to run at startup. Like Warp, Canva, Docker, etc.
+- Make sure to uncheck the option - `Open at Login`, for the apps which I don't want to run at startup. Like Warp, Canva, Docker, etc. Easier way is go to System Preferences > General > Login items and Extensions and uncheck the apps which you don't want to run at startup.
 
 ### Steps to Update or Create the Brewfile
 
