@@ -1,9 +1,7 @@
-tap "goreleaser/tap"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "mongodb/brew"
-tap "ngrok/ngrok"
 tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
 # Run your GitHub Actions locally
@@ -18,6 +16,8 @@ brew "gh"
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser"
 # Kubernetes package manager
 brew "helm"
 # Lightweight and flexible command-line JSON processor
@@ -54,8 +54,6 @@ brew "wasmtime"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
-# Release engineering, simplified
-brew "goreleaser/tap/goreleaser"
 # Terraform
 brew "hashicorp/tap/terraform"
 # High-performance, schema-free, document-oriented database
@@ -86,8 +84,6 @@ cask "lens"
 cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
-# Adaptive brightness for external displays
-cask "lunar"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -125,7 +121,6 @@ vscode "formulahendry.code-runner"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
-vscode "gitlab.gitlab-workflow"
 vscode "gitpod.gitpod-desktop"
 vscode "golang.go"
 vscode "graphql.vscode-graphql"
