@@ -21,7 +21,6 @@ git clone https://github.com/Pradumnasaraf/.dotfiles.git ~/.dotfiles
 ```bash
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
@@ -48,13 +47,19 @@ brew bundle --file ~/.dotfiles/Brewfile
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-8. Install zsh-autosuggestions extension.
+8. Create symlinks for the zshrc file.
+
+```bash
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
+```
+
+9. Install zsh-autosuggestions extension.
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-9. Start MongoDB and set it to launch at startup. [Docs for reference](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+10. Start MongoDB and set it to launch at startup. [Docs for reference](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
 ```bash
 brew services start mongodb-community
@@ -68,20 +73,65 @@ or
 mongosh
 ```
 
-10. Other nuances and quirks to be aware of:
+11. Other nuances and quirks to be aware of:
 
-- Turn on  App Management permissions, so Homebrew will delete and reinstall the app. To do that do to Settings > Privacy & Security > App Management and add or enable your terminal.
-- Turn of the Keyboard Shortcut for Spotlight by going to System Preferences > Keyboard > Shortcuts > Spotlight and unchecking the `Show Spotlight Search` and `Show Finder Search Window` options. Reason to use `⌘ + Space` for Raycast.
-- Import the **Raycast** Config from this dir by going to Raycast > Settings > Import/Export > Import and selecting the `raycast.rayconfig` file.
-- Install [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12), [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776?mt=12) and [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) via Apple App Store (Now available on brew)
-- Import Passwords to Arc Browser profile.
-- Set Mouse to **Natural Scrolling** by going to System Preferences > Mouse > Scroll Direction: Natural.
-- Turn on **Path Bar** and **Status Bar** in Finder by going to View > Show Path Bar and View > Show Status Bar.
-- In Settings > Control Center, Under **Control Center Modules**: Change Display, Sound, Focus to _Always Show in Menu Bar_. Under **Other Modules**: Turn on `Show Percentage` for Battery and `Show in Control Center` for Keyboard Brightness. Under **Menu Bar Only** Change Spotlight `Don't Show in Menu Bar` and For Weather, Change `Show in Menu Bar`.
-- Make sure to uncheck the option - `Open at Login`, for the apps which I don't want to run at startup. Like Warp, Canva, Docker, etc. Easier way is go to System Preferences > General > Login items and Extensions and uncheck the apps which you don't want to run at startup.
+- **Enable App Management permissions** so Homebrew can delete and reinstall apps.  
+  - Go to **Settings > Privacy & Security > App Management** and add or enable your terminal.  
+
+- **Disable the Keyboard Shortcut for Spotlight** to free up `⌘ + Space` for **Raycast**.  
+  - Go to **System Preferences > Keyboard > Shortcuts > Spotlight** and uncheck:  
+    - `Show Spotlight Search`  
+    - `Show Finder Search Window`  
+
+- **Import the Raycast config** from this directory:  
+  - **Raycast > Settings > Import/Export > Import** and select `raycast.rayconfig`.  
+
+- **Install apps from the App Store (also available on Homebrew):**  
+  - [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12)  
+  - [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776?mt=12)  
+  - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12)   
+
+- **Set Mouse Scrolling to Natural:**  
+  - **System Preferences > Mouse > Scroll Direction: Natural**  
+
+- **Enable Path Bar and Status Bar in Finder:**  
+  - **View > Show Path Bar**  
+  - **View > Show Status Bar**  
+
+- **Adjust Control Center settings:**  
+  - **Settings > Control Center**  
+    - **Control Center Modules:** Set **Display, Sound, and Focus** to _Always Show in Menu Bar_.  
+    - **Other Modules:**  
+      - Enable `Show Percentage` for **Battery**.  
+      - Enable `Show in Control Center` for **Keyboard Brightness**.  
+    - **Menu Bar Only:**  
+      - Hide **Spotlight** (`Don't Show in Menu Bar`).  
+      - Show **Weather** (`Show in Menu Bar`).  
+
+- **Disable startup apps:**  
+  - Go to **System Preferences > General > Login Items and Extensions**.  
+  - Uncheck apps like **Warp, Canva, Docker**, etc.  
+
+- **Set Trackpad settings:**  
+  - **Tap to Click:** **System Preferences > Trackpad > Point & Click > Tap to Click**.  
+  - **Secondary Click:** **Click in bottom right corner**.  
+
+- **Arc Browser Settings:**  
+  - **Enable Sync Sidebar**.  
+  - Install [iCloud Passwords](https://chromewebstore.google.com/detail/pejdijmoenmkgeppbflobdenhhabjlaj?utm_source=item-share-cb) from the **Arc Browser extension store**.  
+  - **Under Links:** Turn off `Links from other apps open in Little Arc`.  
+  - **Under Max:** Enable **Max Mode**.  
+
+- **Install GenCLI** with `go install github.com/Pradumnasaraf/gencli@latest`.
+
+- **Install Grammarly Extension** for [Arc Browser.](https://chromewebstore.google.com/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen?utm_source=item-share-cb)
+
+- **Set Hot Corners:**  
+  - **System Preferences > Mission Control > Hot Corners**.  
+    - **Top Right:** **Notification Center**.
 
 ### Steps to Update or Create the Brewfile
-
+ 
 ```bash
 brew bundle dump --describe --file ~/.dotfiles/Brewfile
 ```
