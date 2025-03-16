@@ -84,6 +84,8 @@ cask "lens"
 cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Adaptive brightness for external displays
+cask "lunar"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
