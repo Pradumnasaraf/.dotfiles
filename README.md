@@ -130,6 +130,10 @@ mongosh
   - **System Preferences > Mission Control > Hot Corners**.  
     - **Top Right:** **Notification Center**.
 
+- **iCloud Desktop and Documents sync:**  
+  - **System Preferences > Apple ID > iCloud > Drive**
+    - Enable **Desktop & Documents Folders**.
+
 ### Steps to Update or Create the Brewfile
  
 ```bash
