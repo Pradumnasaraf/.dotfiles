@@ -1,6 +1,4 @@
 tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "mongodb/brew"
 tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
@@ -72,8 +70,6 @@ cask "canva"
 cask "chatgpt"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerised applications and microservices
-cask "docker"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Grammarly for desktop
@@ -90,8 +86,6 @@ cask "mongodb-compass"
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
-# Get up and running with large language models locally
-cask "ollama"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
@@ -113,6 +107,7 @@ cask "warp"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "bierner.markdown-preview-github-styles"
+vscode "docker.docker"
 vscode "dtsvet.vscode-wasm"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
@@ -139,6 +134,7 @@ vscode "ms-vscode.cpptools-themes"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
+vscode "openai.chatgpt"
 vscode "pkief.material-icon-theme"
 vscode "postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
