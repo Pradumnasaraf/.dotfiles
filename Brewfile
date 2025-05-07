@@ -42,6 +42,8 @@ brew "python@3.11"
 brew "ruby"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Web Assembly Binary Toolkit
@@ -68,8 +70,14 @@ cask "boop"
 cask "canva"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Voice and text chat software
 cask "discord"
+# Collaborative team software
+cask "figma"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Grammarly for desktop
@@ -80,6 +88,8 @@ cask "lens"
 cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Adaptive brightness for external displays
+cask "lunar"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -124,6 +134,9 @@ vscode "hashicorp.terraform"
 vscode "mechatroner.rainbow-csv"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"

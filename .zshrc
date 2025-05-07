@@ -162,5 +162,16 @@ alias tf="terraform"
 alias d="docker"
 alias dc="docker compose"
 
+# Python
+alias py="python"
+alias py3="python3"
+alias pip="pip3"
+alias python="python3"
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/pradumnasaraf/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
