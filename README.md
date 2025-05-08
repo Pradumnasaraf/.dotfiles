@@ -87,11 +87,19 @@ mongosh
   - **Raycast > Settings > Import/Export > Import** and select `raycast.rayconfig`.  
 
 - **Install apps from the App Store (also available on Homebrew):**  
-  - [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066?mt=12)  
-  - [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776?mt=12)  
-  - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12)   
+  - [Launchy](https://apps.apple.com/in/app/launchy-app-launcher-switcher/id6739782043) - A Flywheel app launcher.
+  - [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066) - Hides the menu bar icons.
+  - [Folder Preview](https://apps.apple.com/in/app/folder-preview/id6698876601) - Preview folders in Finder.
+  - [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776)  - Helps lock keyboard, turn off display, and more.
+  - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) - Add text to the menu bar.
 
-- **Set Mouse Scrolling to Natural:**  
+  Extras (That I don't use, but you might find useful):
+  - [Blip](https://blip.net) - A file sharing app, similar to Airdrop. But supports all platforms.
+  - [Pure Paste](https://apps.apple.com/in/app/pure-paste/id1611378436) - Paste text without formatting.
+  - [Gifski](https://apps.apple.com/in/app/gifski/id1351639930) - Convert videos to HD GIFs.
+  - [Usage](https://apps.apple.com/in/app/usage-device-monitor/id1561788435) - Monitor your Mac's CPU, memory, and disk usage.
+
+- **Set Mouse Scrolling to Natural:**
   - **System Preferences > Mouse > Scroll Direction: Natural**  
 
 - **Enable Path Bar and Status Bar in Finder:**  
