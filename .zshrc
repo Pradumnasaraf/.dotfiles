@@ -175,3 +175,5 @@ fpath=(/Users/pradumnasaraf/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+eval "$(rbenv init - zsh)"
+eval "$(rbenv init - zsh)"

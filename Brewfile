@@ -1,3 +1,4 @@
+tap "dagger/tap"
 tap "hashicorp/tap"
 tap "mongodb/brew"
 tap "robusta-dev/holmesgpt"
@@ -54,6 +55,8 @@ brew "wasmtime"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# Dagger is an integrated platform to orchestrate the delivery of applications
+brew "dagger/tap/dagger"
 # Terraform
 brew "hashicorp/tap/terraform"
 # High-performance, schema-free, document-oriented database
@@ -76,6 +79,8 @@ cask "claude"
 cask "cursor"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Collaborative team software
 cask "figma"
 # Tools to protect your emails and files
@@ -132,7 +137,8 @@ vscode "graphql.vscode-graphql"
 vscode "graphql.vscode-graphql-syntax"
 vscode "hashicorp.terraform"
 vscode "mechatroner.rainbow-csv"
-vscode "ms-azuretools.vscode-docker"
+vscode "mohsen1.prettify-json"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
