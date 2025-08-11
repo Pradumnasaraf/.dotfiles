@@ -5,10 +5,6 @@ tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
 # Run your GitHub Actions locally
 brew "act"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
-# LLVM bytecode to JavaScript compiler
-brew "emscripten"
 # GitHub command-line tool
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
@@ -38,7 +34,7 @@ brew "nvm"
 # Highly capable, feature-rich programming language
 brew "perl"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
+brew "python@3.13"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Display directories as trees (with optional color/HTML output)
@@ -143,6 +139,7 @@ vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
