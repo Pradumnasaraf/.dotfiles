@@ -91,8 +91,9 @@ mongosh
   - [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066) - Hides the menu bar icons.
   - [Folder Preview](https://apps.apple.com/in/app/folder-preview/id6698876601) - Preview folders in Finder.
   - [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776)  - Helps lock keyboard, turn off display, and more.
-  - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) - Add text to the menu bar.
-  - [One Menu](https://www.withmarko.com/one-menu) - Turn of keyboard for cleaning (Not on App Store)
+  - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) - Add text to the menu bar
+  - [PDFgear](https://apps.apple.com/in/app/pdfgear-pdf-editor-reader/id6469021132?mt=12) - PDF Editor
+  - [One Menu](https://www.withmarko.com/one-menu) - Turn off keyboard for cleaning (Not on App Store)
 
   Extras (That I don't use, but you might find useful):
   - [Blip](https://blip.net) - A file sharing app, similar to Airdrop. But supports all platforms.
