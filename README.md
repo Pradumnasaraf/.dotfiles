@@ -93,9 +93,13 @@ mongosh
   - [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776)  - Helps lock keyboard, turn off display, and more.
   - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) - Add text to the menu bar
   - [PDFgear](https://apps.apple.com/in/app/pdfgear-pdf-editor-reader/id6469021132?mt=12) - PDF Editor
-  - [One Menu](https://www.withmarko.com/one-menu) - Turn off keyboard for cleaning (Not on App Store)
+  - [Perplexity](https://apps.apple.com/in/app/perplexity-ask-anything/id6714467650?mt=12) - AI Chatbot
+  - [iMovies](https://apps.apple.com/in/app/imovie/id408981434?mt=12) - Movie/video editing app
 
-  Extras (That I don't use, but you might find useful):
+- **Install apps from the web:**  
+  - [One Menu](https://www.withmarko.com/one-menu) - Turn off keyboard for cleaning
+
+- **Extras (That I don't use, but you might find useful):**
   - [Blip](https://blip.net) - A file sharing app, similar to Airdrop. But supports all platforms.
   - [Pure Paste](https://apps.apple.com/in/app/pure-paste/id1611378436) - Paste text without formatting.
   - [Gifski](https://apps.apple.com/in/app/gifski/id1351639930) - Convert videos to HD GIFs.
