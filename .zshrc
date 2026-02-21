@@ -175,5 +175,8 @@ fpath=(/Users/pradumnasaraf/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
-eval "$(rbenv init - zsh)"
-eval "$(rbenv init - zsh)"
+alias cagent="/Users/pradumnasaraf/Downloads/cagent\ 0.4.10\ -\ august\ 2025/cagent-darwin-arm64"
+export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
+source /opt/homebrew/share/google-cloud-sdk/path.zsh.inc
+source /opt/homebrew/share/google-cloud-sdk/completion.zsh.inc

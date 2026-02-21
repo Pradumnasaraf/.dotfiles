@@ -1,10 +1,15 @@
 tap "dagger/tap"
 tap "hashicorp/tap"
 tap "mongodb/brew"
+tap "netbirdio/tap"
 tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
 # Run your GitHub Actions locally
 brew "act"
+# Emacs dependency management
+brew "cask"
+# Anti-virus software
+brew "clamav"
 # GitHub command-line tool
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
@@ -15,6 +20,8 @@ brew "golangci-lint"
 brew "goreleaser"
 # Kubernetes package manager
 brew "helm"
+# Configurable static site generator
+brew "hugo"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
@@ -31,8 +38,12 @@ brew "mongosh"
 brew "npm-check-updates"
 # Manage multiple Node.js versions
 brew "nvm"
+# Development kit for the Java programming language
+brew "openjdk@21"
 # Highly capable, feature-rich programming language
 brew "perl"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Powerful, clean, object-oriented scripting language
@@ -43,10 +54,6 @@ brew "tree"
 brew "uv"
 # Vi 'workalike' with many additional features
 brew "vim"
-# Web Assembly Binary Toolkit
-brew "wabt"
-# Standalone JIT-style runtime for WebAssembly, using Cranelift
-brew "wasmtime"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -57,8 +64,8 @@ brew "dagger/tap/dagger"
 brew "hashicorp/tap/terraform"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
-# The Open Source DevOps Assistant
-brew "robusta-dev/holmesgpt/holmesgpt"
+# Netbird project.
+brew "netbirdio/tap/netbird"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
 # Chromium based browser
@@ -71,14 +78,14 @@ cask "canva"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Write, edit, and chat about your code with AI
 cask "cursor"
-# Voice and text chat software
-cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Collaborative team software
-cask "figma"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Grammarly for desktop
@@ -89,10 +96,16 @@ cask "lens"
 cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Software for Logitech devices
+cask "logi-options+"
 # Adaptive brightness for external displays
 cask "lunar"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# Netbird UI Client
+cask "netbirdio/tap/netbird-ui"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
@@ -119,15 +132,12 @@ cask "warp"
 cask "zoom"
 vscode "bierner.markdown-preview-github-styles"
 vscode "docker.docker"
-vscode "dtsvet.vscode-wasm"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
 vscode "formulahendry.code-runner"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
-vscode "gitpod.gitpod-desktop"
 vscode "golang.go"
 vscode "graphql.vscode-graphql"
 vscode "graphql.vscode-graphql-syntax"
@@ -135,7 +145,6 @@ vscode "hashicorp.terraform"
 vscode "mechatroner.rainbow-csv"
 vscode "mohsen1.prettify-json"
 vscode "ms-azuretools.vscode-containers"
-vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
@@ -143,10 +152,6 @@ vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.cmake-tools"
-vscode "ms-vscode.cpptools"
-vscode "ms-vscode.cpptools-extension-pack"
-vscode "ms-vscode.cpptools-themes"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
@@ -156,7 +161,10 @@ vscode "postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.liveserver"
 vscode "streetsidesoftware.code-spell-checker"
-vscode "twxs.cmake"
 vscode "unifiedjs.vscode-mdx"
 vscode "wayou.vscode-todo-highlight"
 vscode "yzhang.markdown-all-in-one"
+go "github.com/go-delve/delve/cmd/dlv"
+go "github.com/Pradumnasaraf/gencli"
+go "golang.org/x/tools/gopls"
+go "honnef.co/go/tools/cmd/staticcheck"
