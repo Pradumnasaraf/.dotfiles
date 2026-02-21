@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Export Google Gemini API Key
-export GEMINI_API_KEY=********
+export GOOGLE_API_KEY=**********
 
 if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"
