@@ -168,6 +168,9 @@ alias py3="python3"
 alias pip="pip3"
 alias python="python3"
 
+# Homebrew
+alias brewup="brew update && brew upgrade && brew upgrade --cask && brew autoremove && brew cleanup && omz update"
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
