@@ -38,6 +38,8 @@ brew "mongosh"
 brew "npm-check-updates"
 # Manage multiple Node.js versions
 brew "nvm"
+# AI coding agent, built for the terminal
+brew "opencode"
 # Development kit for the Java programming language
 brew "openjdk@21"
 # Highly capable, feature-rich programming language
@@ -78,6 +80,8 @@ cask "canva"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Write, edit, and chat about your code with AI
@@ -86,6 +90,8 @@ cask "cursor"
 cask "docker-desktop"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
+# Web browser
+cask "google-chrome"
 # Tools to protect your emails and files
 cask "gpg-suite"
 # Grammarly for desktop
@@ -100,6 +106,8 @@ cask "localsend"
 cask "logi-options+"
 # Adaptive brightness for external displays
 cask "lunar"
+# OpenJDK distribution from Microsoft
+cask "microsoft-openjdk@25"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Interactive tool for analyzing MongoDB data
