@@ -168,8 +168,13 @@ alias py3="python3"
 alias pip="pip3"
 alias python="python3"
 
+# Claude
+alias claude-code="claude"
+alias c="claude"
+alias cc="claude"
+
 # Homebrew
-alias brewup="brew update && brew upgrade && brew upgrade --cask && brew autoremove && brew cleanup && omz update"
+alias brewup='omz update && brew update && brew upgrade && brew upgrade --cask $(brew list --cask) && brew autoremove && brew cleanup'
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
@@ -177,6 +182,7 @@ export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
 fpath=(/Users/pradumnasaraf/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
+
 # End of Docker CLI completions
 alias cagent="/Users/pradumnasaraf/Downloads/cagent\ 0.4.10\ -\ august\ 2025/cagent-darwin-arm64"
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"

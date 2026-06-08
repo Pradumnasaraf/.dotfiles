@@ -1,6 +1,6 @@
 # .dotfiles
 
-This repository contains my dotfiles for Pradumnasaraf's macOS setup.
+This repository contains my dotfiles for my macOS setup.
 
 ### Steps to setup a new mac
 
@@ -69,7 +69,11 @@ To check if MongoDB is running, run the following command:
 
 ```bash
 brew services list
+```
+
 or
+
+```bash
 mongosh
 ```
 
@@ -84,7 +88,7 @@ mongosh
     - `Show Finder Search Window`  
 
 - **Import the Raycast config** from this directory:  
-  - **Raycast > Settings > Import/Export > Import** and select `raycast.rayconfig`.  
+  - **Raycast > Settings > Import/Export > Import** and select `Raycast.rayconfig`.  
 
 - **Install apps from the App Store (also available on Homebrew):**  
   - [Launchy](https://apps.apple.com/in/app/launchy-app-launcher-switcher/id6739782043) - A Flywheel app launcher.

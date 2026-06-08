@@ -1,4 +1,5 @@
 tap "dagger/tap"
+tap "docker/tap"
 tap "hashicorp/tap"
 tap "mongodb/brew"
 tap "netbirdio/tap"
@@ -6,6 +7,10 @@ tap "robusta-dev/holmesgpt"
 tap "teamookla/speedtest"
 # Run your GitHub Actions locally
 brew "act"
+# Command-line interface for SQLite
+brew "sqlite"
+# Browser automation CLI for AI agents
+brew "agent-browser"
 # Emacs dependency management
 brew "cask"
 # Anti-virus software
@@ -82,8 +87,6 @@ cask "chatgpt"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
-# OpenAI's coding agent that runs in your terminal
-cask "codex"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # App to build and share containerised applications and microservices
@@ -98,8 +101,6 @@ cask "gpg-suite"
 cask "grammarly-desktop"
 # Kubernetes IDE
 cask "lens"
-# Discover, download, and run local LLMs
-cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Software for Logitech devices
@@ -116,20 +117,14 @@ cask "mongodb-compass"
 cask "netbirdio/tap/netbird-ui"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-# App to write, plan, collaborate, and get organised
-cask "notion"
-# Collaboration platform for API development
-cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Build, run, and govern agents across the software development lifecycle
+cask "docker/tap/sbx"
 # Screen recorder and editor
 cask "screen-studio"
 # Team communication and collaboration software
 cask "slack"
-# Native GUI tool for relational databases
-cask "tableplus"
-# Open-source code editor
-cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Remote desktop application focusing on security
@@ -144,19 +139,15 @@ vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
 vscode "formulahendry.code-runner"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "golang.go"
 vscode "graphql.vscode-graphql"
 vscode "graphql.vscode-graphql-syntax"
 vscode "hashicorp.terraform"
 vscode "mechatroner.rainbow-csv"
-vscode "mohsen1.prettify-json"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
