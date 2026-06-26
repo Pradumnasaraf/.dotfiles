@@ -174,7 +174,7 @@ alias c="claude"
 alias cc="claude"
 
 # Homebrew
-alias brewup='omz update && brew update && brew upgrade && brew upgrade --cask $(brew list --cask) && brew autoremove && brew cleanup'
+alias brewup='omz update && brew update && brew upgrade --yes && brew upgrade --cask --yes $(brew list --cask) && brew autoremove && brew cleanup'
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
