@@ -90,6 +90,10 @@ mongosh
 - **Import the Raycast config** from this directory:  
   - **Raycast > Settings > Import/Export > Import** and select `Raycast.rayconfig`.  
 
+- **Restore the Lunar config** (display brightness and hotkeys):  
+  - Install Lunar, launch it once, quit it, then run `./scripts/lunar-restore.sh`.  
+  - Grant Lunar the **Accessibility** permission first, otherwise the hotkeys will not register.  
+
 - **Install apps from the App Store (also available on Homebrew):**  
   - [Launchy](https://apps.apple.com/in/app/launchy-app-launcher-switcher/id6739782043) - A Flywheel app launcher.
   - [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066) - Hides the menu bar icons.
@@ -163,6 +167,26 @@ If the Brewfile already exists, the above command will overwrite it. If you want
 ```bash
 brew bundle dump --describe --file ~/.dotfiles/Brewfile --force
 ```
+
+### Saving Lunar display settings
+
+Lunar keeps its config in a binary plist at `~/Library/Preferences/fyi.lunar.Lunar.plist`. To export it into this repo as readable XML, run:
+
+```bash
+./scripts/lunar-backup.sh
+```
+
+The script strips the local API key, the coordinates used for solar mode, the cached sunrise and sunset times those coordinates produce, and the per-install activation keys before writing `lunar/fyi.lunar.Lunar.plist.xml`, so nothing private ends up in this public repo. Run it again after changing any Lunar setting you want to keep.
+
+To apply the saved settings back onto a machine:
+
+```bash
+./scripts/lunar-restore.sh
+```
+
+It backs up the current plist next to the original, quits Lunar so it cannot overwrite the file on exit, keeps this machine's own API key and coordinates, then relaunches Lunar.
+
+One thing to know: the saved config binds all four **BlackOut** actions to the `6` key, so `Ctrl + Cmd + 6` blanks the display and can look exactly like the external monitor dying. If that happens again, see `scripts/fix-monitor.sh`.
 
 ### Setting up a GPG Key for signing commits
 
