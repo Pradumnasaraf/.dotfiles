@@ -99,6 +99,7 @@ mongosh
   - [Hidden Bar](https://apps.apple.com/in/app/hidden-bar/id1452453066) - Hides the menu bar icons.
   - [Folder Preview](https://apps.apple.com/in/app/folder-preview/id6698876601) - Preview folders in Finder.
   - [AnySwitch](https://apps.apple.com/in/app/anyswitch-powerful-switches/id6444313776)  - Helps lock keyboard, turn off display, and more.
+  - [Amphetamine](https://apps.apple.com/in/app/amphetamine/id937984704?mt=12) - Keeps the Mac awake without changing energy settings.
   - [One Thing](https://apps.apple.com/in/app/one-thing/id1604176982?mt=12) - Add text to the menu bar
   - [PDFgear](https://apps.apple.com/in/app/pdfgear-pdf-editor-reader/id6469021132?mt=12) - PDF Editor
   - [Perplexity](https://apps.apple.com/in/app/perplexity-ask-anything/id6714467650?mt=12) - AI Chatbot
@@ -106,6 +107,7 @@ mongosh
 
 - **Install apps from the web:**  
   - [One Menu](https://www.withmarko.com/one-menu) - Turn off keyboard for cleaning
+  - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - JVM IDE, used for Kestra work.
 
 - **Extras (That I don't use, but you might find useful):**
   - [Blip](https://blip.net) - A file sharing app, similar to Airdrop. But supports all platforms.
@@ -157,16 +159,14 @@ mongosh
     - Enable **Desktop & Documents Folders**.
 
 ### Steps to Update or Create the Brewfile
- 
-```bash
-brew bundle dump --describe --file ~/.dotfiles/Brewfile
-```
-
-If the Brewfile already exists, the above command will overwrite it. If you want to append to the existing Brewfile, use the following command:
 
 ```bash
-brew bundle dump --describe --file ~/.dotfiles/Brewfile --force
+brew bundle dump --file ~/.dotfiles/Brewfile --force
 ```
+
+Homebrew 7 dropped the `--describe` flag, so do not pass it any more. Descriptions are written by default now, which is where the comment above each entry comes from. Without `--force` the command refuses to run when the Brewfile already exists, so keep that flag to regenerate the file in place.
+
+The dump also picks up VS Code and Cursor extensions, `go install` binaries, and `uv` tools, so those lines at the bottom of the Brewfile are generated too. Nothing needs to be added by hand.
 
 ### Saving Lunar display settings
 

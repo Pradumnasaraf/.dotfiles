@@ -1,9 +1,9 @@
 tap "dagger/tap"
-tap "docker/tap"
+tap "docker/tap", trusted: { casks: ["sbx@nightly"] }
 tap "hashicorp/tap"
-tap "mongodb/brew"
+tap "mongodb/brew", trusted: true
 tap "netbirdio/tap"
-tap "robusta-dev/holmesgpt"
+tap "robusta-dev/holmesgpt", trusted: true
 tap "teamookla/speedtest"
 # Run your GitHub Actions locally
 brew "act"
@@ -15,6 +15,8 @@ brew "agent-browser"
 brew "cask"
 # Anti-virus software
 brew "clamav"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Open source programming language to build simple/reliable/efficient software
@@ -66,15 +68,15 @@ brew "wget"
 # JavaScript package manager
 brew "yarn"
 # Dagger is an integrated platform to orchestrate the delivery of applications
-brew "dagger/tap/dagger"
+brew "dagger/tap/dagger", trusted: true
 # Terraform
-brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/terraform", trusted: true
 # High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community"
+brew "mongodb/brew/mongodb-community", trusted: true
 # Netbird project.
-brew "netbirdio/tap/netbird"
+brew "netbirdio/tap/netbird", trusted: true
 # Ookla Speedtest
-brew "teamookla/speedtest/speedtest"
+brew "teamookla/speedtest/speedtest", trusted: true
 # Chromium based browser
 cask "arc"
 # Scriptable scratchpad for developers
@@ -107,6 +109,8 @@ cask "localsend"
 cask "logi-options+"
 # Adaptive brightness for external displays
 cask "lunar"
+# Speech recognition tool
+cask "macwhisper"
 # OpenJDK distribution from Microsoft
 cask "microsoft-openjdk@25"
 # Meet, chat, call, and collaborate in just one place
@@ -114,25 +118,28 @@ cask "microsoft-teams"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Netbird UI Client
-cask "netbirdio/tap/netbird-ui"
+cask "netbirdio/tap/netbird-ui", trusted: true
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Remote desktop application focusing on security
+cask "realvnc-connect-viewer"
 # Build, run, and govern agents across the software development lifecycle
-cask "docker/tap/sbx"
+cask "docker/tap/sbx", trusted: true
 # Screen recorder and editor
 cask "screen-studio"
 # Team communication and collaboration software
 cask "slack"
 # Multimedia player
 cask "vlc"
-# Remote desktop application focusing on security
-cask "vnc-viewer"
 # Rust-based terminal
 cask "warp"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "anthropic.claude-code"
+vscode "anysphere.remote-containers"
+vscode "anysphere.remote-ssh"
 vscode "bierner.markdown-preview-github-styles"
 vscode "docker.docker"
 vscode "eamodio.gitlens"
@@ -149,9 +156,6 @@ vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
 vscode "openai.chatgpt"
@@ -163,7 +167,11 @@ vscode "streetsidesoftware.code-spell-checker"
 vscode "unifiedjs.vscode-mdx"
 vscode "wayou.vscode-todo-highlight"
 vscode "yzhang.markdown-all-in-one"
+go "github.com/Pradumnasaraf/candy"
 go "github.com/go-delve/delve/cmd/dlv"
 go "github.com/Pradumnasaraf/gencli"
 go "golang.org/x/tools/gopls"
+go "github.com/Pradumnasaraf/scrapy"
 go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/Pradumnasaraf/taskit"
+uv "aviationstack-mcp"
