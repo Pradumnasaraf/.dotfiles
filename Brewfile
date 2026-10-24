@@ -77,8 +77,6 @@ brew "mongodb/brew/mongodb-community", trusted: true
 brew "netbirdio/tap/netbird", trusted: true
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest", trusted: true
-# Chromium based browser
-cask "arc"
 # Scriptable scratchpad for developers
 cask "boop"
 # Design tool
@@ -131,6 +129,8 @@ cask "docker/tap/sbx", trusted: true
 cask "screen-studio"
 # Team communication and collaboration software
 cask "slack"
+# Web browser
+cask "thebrowsercompany-dia"
 # Multimedia player
 cask "vlc"
 # Rust-based terminal
@@ -174,4 +174,3 @@ go "golang.org/x/tools/gopls"
 go "github.com/Pradumnasaraf/scrapy"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/Pradumnasaraf/taskit"
-uv "aviationstack-mcp"
