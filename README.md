@@ -186,7 +186,7 @@ To apply the saved settings back onto a machine:
 
 It backs up the current plist next to the original, quits Lunar so it cannot overwrite the file on exit, keeps this machine's own API key and coordinates, then relaunches Lunar.
 
-One thing to know: the saved config binds all four **BlackOut** actions to the `6` key, so `Ctrl + Cmd + 6` blanks the display and can look exactly like the external monitor dying. If that happens again, see `scripts/fix-monitor.sh`.
+One thing to know: the saved config binds all four **BlackOut** actions to the `6` key, so `Ctrl + Cmd + 6` blanks the display and can look exactly like the external monitor dying. If the monitor is really not detected, the steps are in the Claude Code skill at `.claude/skills/fix-monitor/SKILL.md`.
 
 ### Setting up a GPG Key for signing commits
 

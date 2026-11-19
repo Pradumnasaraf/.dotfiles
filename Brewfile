@@ -99,6 +99,8 @@ cask "google-chrome"
 cask "gpg-suite"
 # Grammarly for desktop
 cask "grammarly-desktop"
+# Open-source keystroke visualiser
+cask "keycastr"
 # Kubernetes IDE
 cask "lens"
 # Open-source cross-platform alternative to AirDrop
@@ -135,6 +137,8 @@ cask "thebrowsercompany-dia"
 cask "vlc"
 # Rust-based terminal
 cask "warp"
+# Multiplayer code editor
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "anthropic.claude-code"
@@ -159,6 +163,7 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
 vscode "openai.chatgpt"
+vscode "openai.codex-audio"
 vscode "pkief.material-icon-theme"
 vscode "postman.postman-for-vscode"
 vscode "redhat.vscode-yaml"
@@ -174,3 +179,4 @@ go "golang.org/x/tools/gopls"
 go "github.com/Pradumnasaraf/scrapy"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/Pradumnasaraf/taskit"
+uv "aviationstack-mcp"

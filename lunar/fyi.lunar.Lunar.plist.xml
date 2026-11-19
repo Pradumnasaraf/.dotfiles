@@ -2,16 +2,110 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>KeyboardShortcuts_blackOut</key>
+	<string>{"carbonKeyCode":22,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_blackOutNoMirroring</key>
+	<string>{"carbonModifiers":4864,"carbonKeyCode":22}</string>
+	<key>KeyboardShortcuts_blackOutOthers</key>
+	<string>{"carbonModifiers":6912,"carbonKeyCode":22}</string>
+	<key>KeyboardShortcuts_blackOutPowerOff</key>
+	<string>{"carbonModifiers":6400,"carbonKeyCode":22}</string>
+	<key>KeyboardShortcuts_brightnessDown</key>
+	<string>{"carbonKeyCode":122,"carbonModifiers":256}</string>
+	<key>KeyboardShortcuts_brightnessUp</key>
+	<string>{"carbonKeyCode":120,"carbonModifiers":256}</string>
+	<key>KeyboardShortcuts_contrastDown</key>
+	<string>{"carbonKeyCode":122,"carbonModifiers":768}</string>
+	<key>KeyboardShortcuts_contrastUp</key>
+	<string>{"carbonKeyCode":120,"carbonModifiers":768}</string>
+	<key>KeyboardShortcuts_faceLight</key>
+	<string>{"carbonKeyCode":23,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_lunar</key>
+	<string>{"carbonKeyCode":37,"carbonModifiers":2816}</string>
+	<key>KeyboardShortcuts_muteAudio</key>
+	<string>{"carbonKeyCode":109,"carbonModifiers":256}</string>
+	<key>KeyboardShortcuts_nightShift</key>
+	<string>{"carbonKeyCode":26,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_orientation0</key>
+	<string>{"carbonKeyCode":29,"carbonModifiers":4096}</string>
+	<key>KeyboardShortcuts_orientation180</key>
+	<string>{"carbonKeyCode":28,"carbonModifiers":4096}</string>
+	<key>KeyboardShortcuts_orientation270</key>
+	<string>{"carbonKeyCode":26,"carbonModifiers":4096}</string>
+	<key>KeyboardShortcuts_orientation90</key>
+	<string>{"carbonKeyCode":25,"carbonModifiers":4096}</string>
+	<key>KeyboardShortcuts_percent0</key>
+	<string>{"carbonKeyCode":29,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_percent100</key>
+	<string>{"carbonKeyCode":21,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_percent25</key>
+	<string>{"carbonKeyCode":18,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_percent50</key>
+	<string>{"carbonKeyCode":19,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_percent75</key>
+	<string>{"carbonKeyCode":20,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_preciseBrightnessDown</key>
+	<string>{"carbonModifiers":2304,"carbonKeyCode":122}</string>
+	<key>KeyboardShortcuts_preciseBrightnessUp</key>
+	<string>{"carbonModifiers":2304,"carbonKeyCode":120}</string>
+	<key>KeyboardShortcuts_preciseContrastDown</key>
+	<string>{"carbonModifiers":2816,"carbonKeyCode":122}</string>
+	<key>KeyboardShortcuts_preciseContrastUp</key>
+	<string>{"carbonModifiers":2816,"carbonKeyCode":120}</string>
+	<key>KeyboardShortcuts_preciseVolumeDown</key>
+	<string>{"carbonModifiers":2304,"carbonKeyCode":103}</string>
+	<key>KeyboardShortcuts_preciseVolumeUp</key>
+	<string>{"carbonModifiers":2304,"carbonKeyCode":111}</string>
+	<key>KeyboardShortcuts_presetRevert</key>
+	<string>{"carbonKeyCode":6,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_restart</key>
+	<string>{"carbonKeyCode":37,"carbonModifiers":6912}</string>
+	<key>KeyboardShortcuts_sidecar</key>
+	<string>{"carbonKeyCode":25,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_toggle</key>
+	<string>{"carbonKeyCode":37,"carbonModifiers":6400}</string>
+	<key>KeyboardShortcuts_trueTone</key>
+	<string>{"carbonKeyCode":28,"carbonModifiers":4352}</string>
+	<key>KeyboardShortcuts_volumeDown</key>
+	<string>{"carbonKeyCode":103,"carbonModifiers":256}</string>
+	<key>KeyboardShortcuts_volumeUp</key>
+	<string>{"carbonKeyCode":111,"carbonModifiers":256}</string>
 	<key>NSInitialToolTipDelay</key>
 	<integer>5</integer>
 	<key>NSStatusItem Preferred Position Item-0</key>
-	<real>553.0</real>
+	<real>531.0</real>
 	<key>NSWindow Frame SUUpdateAlert2</key>
-	<string>1008 486 543 402 0 0 2560 1050 </string>
+	<string>688 388 554 402 0 0 2560 1050 </string>
+	<key>NSWindow Frame settings</key>
+	<string>790 255 980 692 0 0 2560 1050 </string>
+	<key>PADDeviceIdentifier</key>
+	<string>20:91:df:e0:e4:40</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
+	<key>accessibilityDeclined</key>
+	<false/>
 	<key>accessibilityPermissionsGranted</key>
 	<true/>
 	<key>adaptiveBrightnessMode</key>
 	<string>"Manual"</string>
+	<key>adaptiveModelMigrated</key>
+	<true/>
+	<key>alcSnapshot</key>
+	<dict/>
+	<key>autoSubzero</key>
+	<false/>
+	<key>betaErrorReportingApplied</key>
+	<true/>
+	<key>betaSilentUpdateApplied</key>
+	<true/>
+	<key>brightnessKeysTargetManual</key>
+	<integer>0</integer>
+	<key>brightnessMode</key>
+	<string>0</string>
+	<key>builtinDisplayUUID</key>
+	<string>37D8832A-2D66-02CA-B9F7-8F30A301B230</string>
+	<key>cleanExit</key>
+	<true/>
 	<key>cliInstalled</key>
 	<false/>
 	<key>clockMode</key>
@@ -22,15 +116,18 @@
 	<false/>
 	<key>dimNonEssentialUI</key>
 	<true/>
+	<key>displayHotkeysMigratedToKeyboardShortcuts</key>
+	<true/>
 	<key>displays</key>
 	<array>
-		<string>{"minBrightnessBeforeBlackout":0,"faceLightEnabled":false,"hotkeyInput2":246,"active":false,"useOverlay":true,"rotation":0,"name":"","neverUseNetworkControl":false,"softwareBrightness":1,"muteByteValueOff":2,"volumeValueOnMute":0,"xdrBrightness":0,"blackOutMirroringAllowed":false,"alwaysUseNetworkControl":false,"main":true,"lockedBrightness":false,"adaptiveSubzero":true,"brightness":50,"syncBrightnessMapping":{},"canChangeVolume":true,"id":79832,"hotkeyInput3":246,"audioMuted":false,"nits":0,"defaultGammaBlueMin":0,"lockedContrastCurve":false,"redGain":50,"neverFallbackControl":false,"fullRange":false,"ddcEnabled":true,"hotkeyInput1":246,"defaultGammaRedMin":0,"locationContrastMapping":[{"source":-18,"target":0},{"source":20,"target":100}],"volume":10,"maxDDCBrightness":100,"edidName":"","forceDDC":false,"averageDDCWriteNanoseconds":0,"applyVolumeValueOnMute":false,"mirroredBeforeBlackOut":false,"normalizedContrast":0,"keepHDREnabled":false,"syncContrastMapping":{},"minDDCBrightness":0,"serial":"74EE2D70-9BC1-41A5-8538-597B1C9CC03B","minContrast":50,"keepDisconnected":false,"minContrastBeforeBlackout":50,"maxBrightnessBeforeFacelight":100,"extendedColorGain":false,"contrastOnInputChange2":75,"gammaEnabled":true,"power":true,"defaultGammaRedMax":1,"networkEnabled":true,"adaptive":true,"subzeroDimming":1,"brightnessBeforeBlackout":50,"defaultGammaGreenMin":0,"normalizedBrightness":0.5,"blueGain":50,"sensorContrastMapping":[{"source":0,"target":20}],"defaultGammaBlueMax":1,"isSource":false,"maxNits":350,"applyBrightnessOnInputChange1":true,"xdr":false,"nitsBrightnessMapping":[],"maxDDCVolume":100,"locationBrightnessMapping":[{"source":-18,"target":-20},{"source":20,"target":100}],"faceLightBrightness":100,"brightnessOnInputChange2":100,"maxDDCContrast":100,"hdr":false,"nitsContrastMapping":[],"appleNativeEnabled":true,"muteByteValueOn":1,"cornerRadius":0,"normalizedBrightnessContrast":0.5,"greenGain":50,"defaultGammaRedValue":1,"sensorBrightnessMapping":[{"source":0,"target":21},{"source":13,"target":31},{"source":23,"target":34},{"source":39,"target":39},{"source":71,"target":41},{"source":80,"target":44},{"source":100,"target":45},{"source":135,"target":47},{"source":160,"target":49},{"source":190,"target":54},{"source":224,"target":58},{"source":313,"target":69},{"source":565,"target":91},{"source":702,"target":99},{"source":800,"target":100}],"reapplyColorGain":false,"brightnessOnInputChange1":100,"schedules":[{"contrast":0.65,"hour":0,"minute":30,"type":-1,"brightness":0.7,"negative":true},{"contrast":0.7,"hour":10,"minute":20,"type":-1,"brightness":0.8,"negative":false},{"contrast":0.75,"hour":0,"minute":0,"type":-1,"brightness":1,"negative":false},{"contrast":0.6,"hour":1,"minute":30,"type":-1,"brightness":0.6,"negative":false},{"contrast":0.45,"hour":7,"minute":30,"type":-1,"brightness":0.2,"negative":false}],"showVolumeOSD":true,"maxBrightness":100,"blackOutEnabled":false,"connection":"unknown","brightnessOnInputChange3":100,"minDDCContrast":0,"minDDCVolume":0,"input":246,"unmanaged":false,"contrastOnInputChange3":75,"contrastBeforeFacelight":50,"maxContrastBeforeFacelight":75,"contrastBeforeBlackout":50,"minNits":30,"contrastOnInputChange1":75,"blackout":false,"contrast":50,"lux":0,"lockedBrightnessCurve":false,"averageDDCReadNanoseconds":0,"defaultGammaBlueValue":1,"applyGamma":false,"responsiveDDC":true,"facelight":false,"subzero":false,"defaultGammaGreenValue":1,"brightnessBeforeFacelight":50,"defaultGammaGreenMax":1,"adaptivePaused":false,"systemAdaptiveBrightness":false,"applyBrightnessOnInputChange2":false,"faceLightContrast":90,"useAlternateInputSwitching":false,"lockedContrast":true,"minBrightness":0,"applyBrightnessOnInputChange3":false,"maxContrast":75,"alwaysFallbackControl":false,"applyMuteValueOnMute":true,"enabledControls":{"appleNative":true,"gamma":true,"ddc":true,"network":true}}</string>
-		<string>{"power":true,"maxContrastBeforeFacelight":75,"minDDCBrightness":0,"rotation":0,"minNits":30,"responsiveDDC":true,"lockedBrightness":false,"blackout":false,"contrastBeforeBlackout":50,"subzero":false,"alwaysUseNetworkControl":false,"maxDDCBrightness":100,"defaultGammaRedValue":1,"defaultGammaBlueMax":1,"facelight":false,"networkEnabled":true,"maxContrast":75,"xdr":false,"minBrightnessBeforeBlackout":0,"normalizedBrightness":0.5,"schedules":[{"contrast":0.65,"hour":0,"minute":30,"type":-1,"brightness":0.7,"negative":true},{"contrast":0.7,"hour":10,"minute":20,"type":-1,"brightness":0.8,"negative":false},{"contrast":0.75,"hour":0,"minute":0,"type":-1,"brightness":1,"negative":false},{"contrast":0.6,"hour":1,"minute":30,"type":-1,"brightness":0.6,"negative":false},{"contrast":0.45,"hour":7,"minute":30,"type":-1,"brightness":0.2,"negative":false}],"useOverlay":true,"active":false,"keepHDREnabled":false,"contrastOnInputChange3":75,"locationContrastMapping":[{"source":-18,"target":0},{"source":20,"target":100}],"defaultGammaRedMin":0,"maxDDCVolume":100,"applyBrightnessOnInputChange1":true,"lockedContrast":true,"faceLightBrightness":100,"faceLightEnabled":false,"nitsContrastMapping":[],"extendedColorGain":false,"forceDDC":false,"xdrBrightness":0,"adaptiveSubzero":true,"hotkeyInput1":246,"maxBrightnessBeforeFacelight":100,"faceLightContrast":90,"brightnessOnInputChange1":100,"fullRange":false,"nits":0,"volume":10,"hotkeyInput3":246,"minDDCContrast":0,"brightnessBeforeFacelight":50,"enabledControls":{"ddc":true,"gamma":true,"network":true,"appleNative":true},"defaultGammaGreenMax":1,"lockedContrastCurve":false,"normalizedBrightnessContrast":0.5,"defaultGammaBlueMin":0,"appleNativeEnabled":true,"subzeroDimming":1,"mirroredBeforeBlackOut":false,"neverUseNetworkControl":false,"adaptivePaused":false,"defaultGammaGreenMin":0,"sensorContrastMapping":[{"source":0,"target":20}],"isSource":false,"defaultGammaBlueValue":1,"alwaysFallbackControl":false,"lockedBrightnessCurve":false,"softwareBrightness":1,"unmanaged":false,"blackOutEnabled":false,"brightnessOnInputChange3":100,"averageDDCWriteNanoseconds":0,"syncBrightnessMapping":{},"applyBrightnessOnInputChange3":false,"serial":"960AE625-EA98-4B4D-A8BE-C1A332B65363","edidName":"","showVolumeOSD":true,"contrast":50,"applyMuteValueOnMute":true,"syncContrastMapping":{},"hdr":false,"reapplyColorGain":false,"nitsBrightnessMapping":[],"locationBrightnessMapping":[{"source":-18,"target":-20},{"source":20,"target":100}],"cornerRadius":0,"blueGain":50,"normalizedContrast":0,"hotkeyInput2":246,"contrastOnInputChange1":75,"brightnessBeforeBlackout":50,"applyBrightnessOnInputChange2":false,"blackOutMirroringAllowed":false,"gammaEnabled":true,"minBrightness":0,"minDDCVolume":0,"audioMuted":false,"useAlternateInputSwitching":false,"maxDDCContrast":100,"canChangeVolume":true,"sensorBrightnessMapping":[{"source":0,"target":21},{"source":13,"target":31},{"source":23,"target":34},{"source":39,"target":39},{"source":71,"target":41},{"source":80,"target":44},{"source":100,"target":45},{"source":135,"target":47},{"source":160,"target":49},{"source":190,"target":54},{"source":224,"target":58},{"source":313,"target":69},{"source":565,"target":91},{"source":702,"target":99},{"source":800,"target":100}],"applyVolumeValueOnMute":false,"brightnessOnInputChange2":100,"main":true,"applyGamma":false,"connection":"unknown","input":246,"lux":0,"neverFallbackControl":false,"greenGain":50,"systemAdaptiveBrightness":false,"averageDDCReadNanoseconds":0,"minContrastBeforeBlackout":50,"redGain":50,"contrastBeforeFacelight":50,"minContrast":50,"id":53849,"muteByteValueOff":2,"ddcEnabled":true,"defaultGammaRedMax":1,"muteByteValueOn":1,"contrastOnInputChange2":75,"keepDisconnected":false,"adaptive":true,"brightness":50,"name":"","defaultGammaGreenValue":1,"volumeValueOnMute":0,"maxNits":350,"maxBrightness":100}</string>
-		<string>{"minBrightnessBeforeBlackout":0,"faceLightEnabled":false,"hotkeyInput2":246,"active":true,"useOverlay":true,"rotation":0,"name":"LG ULTRAWIDE","neverUseNetworkControl":false,"softwareBrightness":1,"muteByteValueOff":2,"volumeValueOnMute":0,"xdrBrightness":0,"blackOutMirroringAllowed":false,"alwaysUseNetworkControl":false,"main":true,"lockedBrightness":false,"adaptiveSubzero":true,"brightness":12,"syncBrightnessMapping":{"a115a115-18bb-4ef3-aa11-555555555555":[{"target":13,"source":13},{"target":19,"source":19},{"source":20,"target":20}]},"canChangeVolume":true,"id":3,"hotkeyInput3":246,"audioMuted":false,"nits":0,"defaultGammaBlueMin":0,"lockedContrastCurve":false,"redGain":50,"neverFallbackControl":false,"fullRange":false,"ddcEnabled":true,"hotkeyInput1":246,"defaultGammaRedMin":0,"locationContrastMapping":[{"target":0,"source":-18},{"target":100,"source":85.09141326640953}],"volume":20,"maxDDCBrightness":100,"edidName":"LG ULTRAWIDE","forceDDC":false,"averageDDCWriteNanoseconds":589319,"applyVolumeValueOnMute":false,"mirroredBeforeBlackOut":false,"normalizedContrast":0,"keepHDREnabled":false,"syncContrastMapping":{},"minDDCBrightness":0,"serial":"77E8CAEA-796A-4E5C-8867-0CA0EDCDE65A","minContrast":50,"keepDisconnected":false,"minContrastBeforeBlackout":50,"maxBrightnessBeforeFacelight":100,"extendedColorGain":false,"contrastOnInputChange2":75,"gammaEnabled":false,"power":true,"defaultGammaRedMax":1,"networkEnabled":true,"adaptive":true,"subzeroDimming":1,"brightnessBeforeBlackout":50,"defaultGammaGreenMin":0,"normalizedBrightness":0.12,"blueGain":50,"sensorContrastMapping":[{"target":20,"source":0}],"defaultGammaBlueMax":1,"isSource":false,"maxNits":350,"applyBrightnessOnInputChange1":true,"xdr":false,"nitsBrightnessMapping":[],"maxDDCVolume":100,"locationBrightnessMapping":[{"target":-20,"source":-18},{"target":100,"source":87.09141326640953}],"faceLightBrightness":100,"brightnessOnInputChange2":100,"maxDDCContrast":100,"hdr":false,"nitsContrastMapping":[],"appleNativeEnabled":true,"muteByteValueOn":1,"cornerRadius":0,"normalizedBrightnessContrast":0.12,"greenGain":50,"defaultGammaRedValue":1,"sensorBrightnessMapping":[{"target":21,"source":0},{"target":31,"source":13},{"target":34,"source":23},{"target":39,"source":39},{"target":41,"source":71},{"target":44,"source":80},{"target":45,"source":100},{"target":47,"source":135},{"target":49,"source":160},{"target":54,"source":190},{"target":58,"source":224},{"target":69,"source":313},{"target":91,"source":565},{"target":99,"source":702},{"target":100,"source":800}],"reapplyColorGain":false,"brightnessOnInputChange1":100,"schedules":[{"brightness":0.7,"negative":true,"contrast":0.7,"type":-1,"minute":30,"hour":0},{"brightness":0.8,"negative":false,"contrast":0.8,"type":-1,"minute":20,"hour":10},{"brightness":1,"negative":false,"contrast":1,"type":-1,"minute":0,"hour":0},{"brightness":0.6,"negative":false,"contrast":0.6,"type":-1,"minute":30,"hour":1},{"brightness":0.2,"negative":false,"contrast":0.2,"type":-1,"minute":30,"hour":7}],"showVolumeOSD":true,"maxBrightness":100,"blackOutEnabled":false,"connection":"hdmi","brightnessOnInputChange3":100,"minDDCContrast":0,"minDDCVolume":0,"input":246,"unmanaged":false,"contrastOnInputChange3":75,"contrastBeforeFacelight":50,"maxContrastBeforeFacelight":75,"contrastBeforeBlackout":50,"minNits":30,"contrastOnInputChange1":75,"blackout":false,"contrast":50,"lux":0,"lockedBrightnessCurve":false,"averageDDCReadNanoseconds":0,"defaultGammaBlueValue":1,"applyGamma":false,"responsiveDDC":true,"facelight":false,"subzero":false,"defaultGammaGreenValue":1,"brightnessBeforeFacelight":50,"defaultGammaGreenMax":1,"adaptivePaused":false,"systemAdaptiveBrightness":false,"applyBrightnessOnInputChange2":false,"faceLightContrast":90,"useAlternateInputSwitching":false,"lockedContrast":true,"minBrightness":0,"applyBrightnessOnInputChange3":false,"maxContrast":75,"alwaysFallbackControl":false,"applyMuteValueOnMute":true,"enabledControls":{"appleNative":true,"gamma":false,"ddc":true,"network":true}}</string>
-		<string>{"power":true,"maxContrastBeforeFacelight":100,"minDDCBrightness":0,"rotation":0,"minNits":0,"responsiveDDC":true,"lockedBrightness":false,"blackout":false,"contrastBeforeBlackout":50,"subzero":false,"alwaysUseNetworkControl":false,"maxDDCBrightness":100,"defaultGammaRedValue":1,"defaultGammaBlueMax":1,"facelight":false,"networkEnabled":true,"maxContrast":100,"xdr":false,"minBrightnessBeforeBlackout":1,"normalizedBrightness":0.43,"schedules":[{"contrast":0.7,"hour":0,"minute":30,"type":-1,"brightness":0.7,"negative":true},{"contrast":0.8,"hour":10,"minute":20,"type":-1,"brightness":0.8,"negative":false},{"contrast":1,"hour":0,"minute":0,"type":-1,"brightness":1,"negative":false},{"contrast":0.6,"hour":1,"minute":30,"type":-1,"brightness":0.6,"negative":false},{"contrast":0.2,"hour":7,"minute":30,"type":-1,"brightness":0.2,"negative":false}],"useOverlay":true,"active":true,"keepHDREnabled":false,"contrastOnInputChange3":75,"locationContrastMapping":[{"source":-18,"target":0},{"source":20,"target":100}],"defaultGammaRedMin":0,"maxDDCVolume":100,"applyBrightnessOnInputChange1":true,"lockedContrast":true,"faceLightBrightness":100,"faceLightEnabled":false,"nitsContrastMapping":[],"extendedColorGain":false,"forceDDC":false,"xdrBrightness":0,"adaptiveSubzero":true,"hotkeyInput1":246,"maxBrightnessBeforeFacelight":100,"faceLightContrast":90,"brightnessOnInputChange1":100,"fullRange":false,"nits":70.94345986843109,"volume":10,"hotkeyInput3":246,"minDDCContrast":0,"brightnessBeforeFacelight":46,"enabledControls":{"appleNative":true,"gamma":false,"ddc":true,"network":true},"defaultGammaGreenMax":1,"lockedContrastCurve":false,"normalizedBrightnessContrast":0.43,"defaultGammaBlueMin":0,"appleNativeEnabled":true,"subzeroDimming":1,"mirroredBeforeBlackOut":false,"neverUseNetworkControl":false,"adaptivePaused":false,"defaultGammaGreenMin":0,"sensorContrastMapping":[{"source":0,"target":20}],"isSource":true,"defaultGammaBlueValue":1,"alwaysFallbackControl":false,"lockedBrightnessCurve":false,"softwareBrightness":1,"unmanaged":false,"blackOutEnabled":false,"brightnessOnInputChange3":100,"averageDDCWriteNanoseconds":0,"syncBrightnessMapping":{},"applyBrightnessOnInputChange3":false,"serial":"37D8832A-2D66-02CA-B9F7-8F30A301B230","edidName":"Built-in","showVolumeOSD":true,"contrast":50,"applyMuteValueOnMute":true,"syncContrastMapping":{},"hdr":false,"reapplyColorGain":false,"nitsBrightnessMapping":[],"locationBrightnessMapping":[{"source":-18,"target":-20},{"source":87.09141326640953,"target":100}],"cornerRadius":0,"blueGain":50,"normalizedContrast":0.25,"hotkeyInput2":246,"contrastOnInputChange1":75,"brightnessBeforeBlackout":46,"applyBrightnessOnInputChange2":false,"blackOutMirroringAllowed":false,"gammaEnabled":false,"minBrightness":0,"minDDCVolume":0,"audioMuted":false,"useAlternateInputSwitching":false,"maxDDCContrast":100,"canChangeVolume":true,"sensorBrightnessMapping":[{"source":0,"target":21},{"source":13,"target":31},{"source":23,"target":34},{"source":39,"target":39},{"source":71,"target":41},{"source":80,"target":44},{"source":100,"target":45},{"source":135,"target":47},{"source":160,"target":49},{"source":190,"target":54},{"source":224,"target":58},{"source":313,"target":69},{"source":565,"target":91},{"source":702,"target":99},{"source":800,"target":100}],"applyVolumeValueOnMute":false,"brightnessOnInputChange2":100,"main":false,"applyGamma":false,"connection":"unknown","input":246,"lux":76.94894409179688,"neverFallbackControl":false,"greenGain":50,"systemAdaptiveBrightness":true,"averageDDCReadNanoseconds":0,"minContrastBeforeBlackout":0,"redGain":50,"contrastBeforeFacelight":50,"minContrast":0,"id":1,"muteByteValueOff":2,"ddcEnabled":true,"defaultGammaRedMax":1,"muteByteValueOn":1,"contrastOnInputChange2":75,"keepDisconnected":false,"adaptive":false,"brightness":43,"name":"Built-in","defaultGammaGreenValue":1,"volumeValueOnMute":0,"maxNits":400,"maxBrightness":100}</string>
+		<string>{"applyGamma":false,"minBrightnessBeforeBlackout":0,"neverFallbackControl":false,"contrastOnInputChange3":75,"minBrightness":0,"hdr":false,"xdr":false,"fullRange":false,"xdrBrightness":0,"edidName":"","blackout":false,"useOverlay":true,"maxDDCVolume":100,"faceLightContrast":90,"minContrastBeforeBlackout":50,"defaultGammaGreenMax":1,"defaultGammaRedValue":1,"defaultGammaGreenMin":0,"normalizedBrightnessContrast":0.5,"faceLightEnabled":false,"cornerRadius":0,"contrastBeforeFacelight":50,"volumeValueOnMute":0,"applyBrightnessOnInputChange1":true,"applyBrightnessOnInputChange2":false,"minDDCBrightness":0,"unmanaged":false,"brightnessOnInputChange3":100,"nitsContrastMapping":[],"mirroredBeforeBlackOut":false,"alwaysFallbackControl":false,"keepDisconnected":false,"facelight":false,"responsiveDDC":true,"muteByteValueOn":1,"keepHDREnabled":false,"lockedBrightnessCurve":false,"minDDCContrast":0,"normalizedBrightness":0.5,"defaultGammaRedMax":1,"gammaEnabled":true,"adaptive":true,"syncBrightnessMapping":{},"maxBrightness":100,"brightnessOnInputChange2":100,"redGain":50,"defaultGammaGreenValue":1,"locationContrastMapping":[{"target":0,"source":-18},{"target":100,"source":20}],"defaultGammaBlueMax":1,"faceLightBrightness":100,"canChangeVolume":true,"brightnessBeforeFacelight":50,"minDDCVolume":0,"reapplyColorGain":false,"adaptivePaused":false,"volume":10,"maxNits":350,"softwareBrightness":1,"lockedBrightness":false,"connection":"unknown","serial":"74EE2D70-9BC1-41A5-8538-597B1C9CC03B","maxDDCBrightness":100,"contrast":50,"muteByteValueOff":2,"appleNativeEnabled":true,"defaultGammaBlueValue":1,"hotkeyInput2":246,"averageDDCReadNanoseconds":0,"minNits":30,"alwaysUseNetworkControl":false,"subzeroDimming":1,"applyBrightnessOnInputChange3":false,"minContrast":50,"audioMuted":false,"applyMuteValueOnMute":true,"showVolumeOSD":true,"maxContrastBeforeFacelight":75,"hotkeyInput1":246,"lux":0,"sensorBrightnessMapping":[{"target":21,"source":0},{"target":31,"source":13},{"target":34,"source":23},{"target":39,"source":39},{"target":41,"source":71},{"target":44,"source":80},{"target":45,"source":100},{"target":47,"source":135},{"target":49,"source":160},{"target":54,"source":190},{"target":58,"source":224},{"target":69,"source":313},{"target":91,"source":565},{"target":99,"source":702},{"target":100,"source":800}],"blueGain":50,"ddcEnabled":true,"greenGain":50,"sensorContrastMapping":[{"target":20,"source":0}],"syncContrastMapping":{},"id":60194,"brightness":50,"locationBrightnessMapping":[{"target":-20,"source":-18},{"target":100,"source":20}],"power":true,"active":false,"forceDDC":false,"contrastBeforeBlackout":50,"networkEnabled":true,"maxDDCContrast":100,"hotkeyInput3":246,"schedules":[{"contrast":0.65,"negative":true,"minute":30,"brightness":0.7,"hour":0,"type":-1},{"contrast":0.7,"negative":false,"minute":20,"brightness":0.8,"hour":10,"type":-1},{"contrast":0.75,"negative":false,"minute":0,"brightness":1,"hour":0,"type":-1},{"contrast":0.6,"negative":false,"minute":30,"brightness":0.6,"hour":1,"type":-1},{"contrast":0.45,"negative":false,"minute":30,"brightness":0.2,"hour":7,"type":-1}],"rotation":0,"defaultGammaRedMin":0,"contrastOnInputChange2":75,"input":246,"neverUseNetworkControl":false,"adaptiveSubzero":true,"enabledControls":{"gamma":true,"network":true,"ddc":true,"appleNative":true},"name":"","useAlternateInputSwitching":false,"contrastOnInputChange1":75,"extendedColorGain":false,"maxContrast":75,"applyVolumeValueOnMute":false,"brightnessOnInputChange1":100,"blackOutMirroringAllowed":false,"averageDDCWriteNanoseconds":0,"brightnessBeforeBlackout":50,"systemAdaptiveBrightness":false,"nits":0,"subzero":false,"defaultGammaBlueMin":0,"maxBrightnessBeforeFacelight":100,"lockedContrastCurve":false,"lockedContrast":true,"blackOutEnabled":false,"isSource":false,"normalizedContrast":0,"nitsBrightnessMapping":[],"main":true}</string>
+		<string>{"applyGamma":false,"minBrightnessBeforeBlackout":0,"neverFallbackControl":false,"contrastOnInputChange3":75,"minBrightness":0,"hdr":false,"xdr":false,"fullRange":false,"xdrBrightness":0,"edidName":"","blackout":false,"useOverlay":true,"maxDDCVolume":100,"faceLightContrast":90,"minContrastBeforeBlackout":50,"defaultGammaGreenMax":1,"defaultGammaRedValue":1,"defaultGammaGreenMin":0,"normalizedBrightnessContrast":0.5,"faceLightEnabled":false,"cornerRadius":0,"contrastBeforeFacelight":50,"volumeValueOnMute":0,"applyBrightnessOnInputChange1":true,"applyBrightnessOnInputChange2":false,"minDDCBrightness":0,"unmanaged":false,"brightnessOnInputChange3":100,"nitsContrastMapping":[],"mirroredBeforeBlackOut":false,"alwaysFallbackControl":false,"keepDisconnected":false,"facelight":false,"responsiveDDC":true,"muteByteValueOn":1,"keepHDREnabled":false,"lockedBrightnessCurve":false,"minDDCContrast":0,"normalizedBrightness":0.5,"defaultGammaRedMax":1,"gammaEnabled":false,"adaptive":true,"syncBrightnessMapping":{},"maxBrightness":100,"brightnessOnInputChange2":100,"redGain":50,"defaultGammaGreenValue":1,"locationContrastMapping":[{"source":-18,"target":0},{"source":20,"target":100}],"defaultGammaBlueMax":1,"faceLightBrightness":100,"canChangeVolume":true,"brightnessBeforeFacelight":50,"minDDCVolume":0,"reapplyColorGain":false,"adaptivePaused":false,"volume":10,"maxNits":350,"softwareBrightness":1,"lockedBrightness":false,"connection":"unknown","serial":"960AE625-EA98-4B4D-A8BE-C1A332B65363","maxDDCBrightness":100,"contrast":50,"muteByteValueOff":2,"appleNativeEnabled":true,"defaultGammaBlueValue":1,"hotkeyInput2":246,"averageDDCReadNanoseconds":0,"minNits":30,"alwaysUseNetworkControl":false,"subzeroDimming":1,"applyBrightnessOnInputChange3":false,"minContrast":50,"audioMuted":false,"applyMuteValueOnMute":true,"showVolumeOSD":true,"maxContrastBeforeFacelight":75,"hotkeyInput1":246,"lux":0,"sensorBrightnessMapping":[{"source":0,"target":21},{"source":13,"target":31},{"source":23,"target":34},{"source":39,"target":39},{"source":71,"target":41},{"source":80,"target":44},{"source":100,"target":45},{"source":135,"target":47},{"source":160,"target":49},{"source":190,"target":54},{"source":224,"target":58},{"source":313,"target":69},{"source":565,"target":91},{"source":702,"target":99},{"source":800,"target":100}],"blueGain":50,"ddcEnabled":true,"greenGain":50,"sensorContrastMapping":[{"source":0,"target":20}],"syncContrastMapping":{},"id":4,"brightness":50,"locationBrightnessMapping":[{"source":-18,"target":-20},{"source":20,"target":100}],"power":true,"active":false,"forceDDC":false,"contrastBeforeBlackout":50,"networkEnabled":true,"maxDDCContrast":100,"hotkeyInput3":246,"schedules":[{"type":-1,"hour":0,"brightness":0.7,"contrast":0.65,"minute":30,"negative":true},{"type":-1,"hour":10,"brightness":0.8,"contrast":0.7,"minute":20,"negative":false},{"type":-1,"hour":0,"brightness":1,"contrast":0.75,"minute":0,"negative":false},{"type":-1,"hour":1,"brightness":0.6,"contrast":0.6,"minute":30,"negative":false},{"type":-1,"hour":7,"brightness":0.2,"contrast":0.45,"minute":30,"negative":false}],"rotation":0,"defaultGammaRedMin":0,"contrastOnInputChange2":75,"input":246,"neverUseNetworkControl":false,"adaptiveSubzero":true,"enabledControls":{"ddc":true,"network":true,"gamma":false,"appleNative":true},"name":"","useAlternateInputSwitching":false,"contrastOnInputChange1":75,"extendedColorGain":false,"maxContrast":75,"applyVolumeValueOnMute":false,"brightnessOnInputChange1":100,"blackOutMirroringAllowed":false,"averageDDCWriteNanoseconds":0,"brightnessBeforeBlackout":50,"systemAdaptiveBrightness":false,"nits":0,"subzero":false,"defaultGammaBlueMin":0,"maxBrightnessBeforeFacelight":100,"lockedContrastCurve":false,"lockedContrast":true,"blackOutEnabled":false,"isSource":false,"normalizedContrast":0,"nitsBrightnessMapping":[],"main":true}</string>
+		<string>{"applyGamma":false,"minBrightnessBeforeBlackout":0,"neverFallbackControl":false,"contrastOnInputChange3":75,"minBrightness":0,"hdr":false,"xdr":false,"fullRange":false,"xdrBrightness":0,"edidName":"LG ULTRAWIDE","blackout":false,"useOverlay":true,"maxDDCVolume":100,"faceLightContrast":90,"minContrastBeforeBlackout":50,"defaultGammaGreenMax":1,"defaultGammaRedValue":1,"defaultGammaGreenMin":0,"normalizedBrightnessContrast":0.31,"faceLightEnabled":false,"cornerRadius":0,"contrastBeforeFacelight":50,"volumeValueOnMute":0,"applyBrightnessOnInputChange1":true,"applyBrightnessOnInputChange2":false,"minDDCBrightness":0,"unmanaged":false,"brightnessOnInputChange3":100,"nitsContrastMapping":[],"mirroredBeforeBlackOut":false,"alwaysFallbackControl":false,"keepDisconnected":false,"facelight":false,"responsiveDDC":true,"muteByteValueOn":1,"keepHDREnabled":false,"lockedBrightnessCurve":false,"minDDCContrast":0,"normalizedBrightness":0.31,"defaultGammaRedMax":1,"gammaEnabled":false,"adaptive":true,"syncBrightnessMapping":{"a115a115-18bb-4ef3-aa11-555555555555":[{"target":13,"source":13},{"target":17,"source":17},{"target":19,"source":19},{"target":20,"source":20},{"target":27,"source":27}]},"maxBrightness":100,"brightnessOnInputChange2":100,"redGain":50,"defaultGammaGreenValue":1,"locationContrastMapping":[{"target":0,"source":-18},{"target":100,"source":85.09141326640953}],"defaultGammaBlueMax":1,"faceLightBrightness":100,"canChangeVolume":true,"brightnessBeforeFacelight":50,"minDDCVolume":0,"reapplyColorGain":false,"adaptivePaused":false,"volume":37,"maxNits":400,"softwareBrightness":1,"lockedBrightness":false,"connection":"unknown","serial":"77E8CAEA-796A-4E5C-8867-0CA0EDCDE65A","maxDDCBrightness":100,"contrast":57,"muteByteValueOff":2,"appleNativeEnabled":true,"defaultGammaBlueValue":1,"hotkeyInput2":246,"averageDDCReadNanoseconds":0,"minNits":30,"alwaysUseNetworkControl":false,"subzeroDimming":1,"applyBrightnessOnInputChange3":false,"minContrast":50,"audioMuted":false,"applyMuteValueOnMute":true,"showVolumeOSD":true,"maxContrastBeforeFacelight":75,"hotkeyInput1":246,"lux":0,"sensorBrightnessMapping":[{"target":21,"source":0},{"target":31,"source":13},{"target":34,"source":23},{"target":39,"source":39},{"target":41,"source":71},{"target":44,"source":80},{"target":45,"source":100},{"target":47,"source":135},{"target":49,"source":160},{"target":54,"source":190},{"target":58,"source":224},{"target":69,"source":313},{"target":91,"source":565},{"target":99,"source":702},{"target":100,"source":800}],"blueGain":50,"ddcEnabled":true,"greenGain":50,"sensorContrastMapping":[{"target":20,"source":0}],"syncContrastMapping":{},"id":2,"brightness":31,"locationBrightnessMapping":[{"target":-20,"source":-18},{"target":100,"source":87.09141326640953}],"power":true,"active":false,"forceDDC":false,"contrastBeforeBlackout":50,"networkEnabled":true,"maxDDCContrast":100,"hotkeyInput3":246,"schedules":[{"contrast":0.7,"negative":true,"minute":30,"brightness":0.7,"hour":0,"type":-1},{"contrast":0.8,"negative":false,"minute":20,"brightness":0.8,"hour":10,"type":-1},{"contrast":1,"negative":false,"minute":0,"brightness":1,"hour":0,"type":-1},{"contrast":0.6,"negative":false,"minute":30,"brightness":0.6,"hour":1,"type":-1},{"contrast":0.2,"negative":false,"minute":30,"brightness":0.2,"hour":7,"type":-1}],"rotation":0,"defaultGammaRedMin":0,"contrastOnInputChange2":75,"input":246,"neverUseNetworkControl":false,"adaptiveSubzero":true,"enabledControls":{"gamma":false,"network":true,"ddc":true,"appleNative":true},"name":"LG ULTRAWIDE","useAlternateInputSwitching":false,"contrastOnInputChange1":75,"extendedColorGain":false,"maxContrast":75,"applyVolumeValueOnMute":false,"brightnessOnInputChange1":100,"blackOutMirroringAllowed":false,"averageDDCWriteNanoseconds":0,"brightnessBeforeBlackout":50,"systemAdaptiveBrightness":false,"nits":0,"subzero":false,"defaultGammaBlueMin":0,"maxBrightnessBeforeFacelight":100,"lockedContrastCurve":false,"lockedContrast":true,"blackOutEnabled":false,"isSource":false,"normalizedContrast":0.07840000000000001,"nitsBrightnessMapping":[],"main":false}</string>
+		<string>{"applyGamma":false,"minBrightnessBeforeBlackout":0,"neverFallbackControl":false,"contrastOnInputChange3":75,"minBrightness":0,"hdr":false,"xdr":false,"fullRange":false,"xdrBrightness":0,"edidName":"LG ULTRAWIDE","blackout":false,"useOverlay":false,"maxDDCVolume":100,"faceLightContrast":90,"minContrastBeforeBlackout":50,"defaultGammaGreenMax":1,"defaultGammaRedValue":1,"defaultGammaGreenMin":0,"normalizedBrightnessContrast":1,"faceLightEnabled":false,"cornerRadius":0,"contrastBeforeFacelight":50,"volumeValueOnMute":0,"applyBrightnessOnInputChange1":true,"applyBrightnessOnInputChange2":false,"minDDCBrightness":0,"unmanaged":false,"brightnessOnInputChange3":100,"nitsContrastMapping":[],"mirroredBeforeBlackOut":false,"alwaysFallbackControl":false,"keepDisconnected":false,"facelight":false,"responsiveDDC":true,"muteByteValueOn":1,"keepHDREnabled":false,"lockedBrightnessCurve":false,"minDDCContrast":0,"normalizedBrightness":1,"defaultGammaRedMax":1,"gammaEnabled":false,"adaptive":true,"syncBrightnessMapping":{},"maxBrightness":100,"brightnessOnInputChange2":100,"redGain":50,"defaultGammaGreenValue":1,"locationContrastMapping":[{"source":-18,"target":0},{"source":20,"target":100}],"defaultGammaBlueMax":1,"faceLightBrightness":100,"canChangeVolume":true,"brightnessBeforeFacelight":50,"minDDCVolume":0,"reapplyColorGain":false,"adaptivePaused":false,"volume":24,"maxNits":400,"softwareBrightness":1,"lockedBrightness":false,"connection":"hdmi","serial":"13B3ECCC-DD53-4B4C-8590-F99B02BA2EC4","maxDDCBrightness":100,"contrast":50,"muteByteValueOff":2,"appleNativeEnabled":true,"defaultGammaBlueValue":1,"hotkeyInput2":246,"averageDDCReadNanoseconds":0,"minNits":30,"alwaysUseNetworkControl":false,"subzeroDimming":1,"applyBrightnessOnInputChange3":false,"minContrast":50,"audioMuted":false,"applyMuteValueOnMute":true,"showVolumeOSD":true,"maxContrastBeforeFacelight":75,"hotkeyInput1":246,"lux":0,"sensorBrightnessMapping":[{"source":0,"target":21},{"source":13,"target":31},{"source":23,"target":34},{"source":39,"target":39},{"source":71,"target":41},{"source":80,"target":44},{"source":100,"target":45},{"source":135,"target":47},{"source":160,"target":49},{"source":190,"target":54},{"source":224,"target":58},{"source":313,"target":69},{"source":565,"target":91},{"source":702,"target":99},{"source":800,"target":100}],"blueGain":50,"ddcEnabled":true,"greenGain":50,"sensorContrastMapping":[{"source":0,"target":20}],"syncContrastMapping":{},"id":3,"brightness":100,"locationBrightnessMapping":[{"source":-18,"target":-20},{"source":20,"target":100}],"power":true,"active":true,"forceDDC":false,"contrastBeforeBlackout":50,"networkEnabled":true,"maxDDCContrast":100,"hotkeyInput3":246,"schedules":[{"type":-1,"hour":0,"brightness":0.7,"contrast":0.7,"minute":30,"negative":true},{"type":-1,"hour":10,"brightness":0.8,"contrast":0.8,"minute":20,"negative":false},{"type":-1,"hour":0,"brightness":1,"contrast":1,"minute":0,"negative":false},{"type":-1,"hour":1,"brightness":0.6,"contrast":0.6,"minute":30,"negative":false},{"type":-1,"hour":7,"brightness":0.2,"contrast":0.2,"minute":30,"negative":false}],"rotation":0,"defaultGammaRedMin":0,"contrastOnInputChange2":75,"input":246,"neverUseNetworkControl":false,"adaptiveSubzero":true,"enabledControls":{"ddc":true,"network":true,"gamma":false,"appleNative":true},"name":"LG ULTRAWIDE","useAlternateInputSwitching":false,"contrastOnInputChange1":75,"extendedColorGain":false,"maxContrast":75,"applyVolumeValueOnMute":false,"brightnessOnInputChange1":100,"blackOutMirroringAllowed":true,"averageDDCWriteNanoseconds":595703,"brightnessBeforeBlackout":50,"systemAdaptiveBrightness":false,"nits":0,"subzero":false,"defaultGammaBlueMin":0,"maxBrightnessBeforeFacelight":100,"lockedContrastCurve":false,"lockedContrast":true,"blackOutEnabled":false,"isSource":false,"normalizedContrast":0,"nitsBrightnessMapping":[],"main":true}</string>
+		<string>{"applyGamma":false,"minBrightnessBeforeBlackout":1,"neverFallbackControl":false,"contrastOnInputChange3":75,"minBrightness":0,"hdr":false,"xdr":false,"fullRange":false,"xdrBrightness":0,"edidName":"Built-in","blackout":false,"useOverlay":true,"maxDDCVolume":100,"faceLightContrast":90,"minContrastBeforeBlackout":0,"defaultGammaGreenMax":1,"defaultGammaRedValue":1,"defaultGammaGreenMin":0,"normalizedBrightnessContrast":0.46,"faceLightEnabled":false,"cornerRadius":0,"contrastBeforeFacelight":50,"volumeValueOnMute":0,"applyBrightnessOnInputChange1":true,"applyBrightnessOnInputChange2":false,"minDDCBrightness":0,"unmanaged":false,"brightnessOnInputChange3":100,"nitsContrastMapping":[],"mirroredBeforeBlackOut":false,"alwaysFallbackControl":false,"keepDisconnected":false,"facelight":false,"responsiveDDC":true,"muteByteValueOn":1,"keepHDREnabled":false,"lockedBrightnessCurve":false,"minDDCContrast":0,"normalizedBrightness":0.46,"defaultGammaRedMax":1,"gammaEnabled":false,"adaptive":false,"syncBrightnessMapping":{},"maxBrightness":100,"brightnessOnInputChange2":100,"redGain":50,"defaultGammaGreenValue":1,"locationContrastMapping":[{"target":0,"source":-18},{"target":100,"source":20}],"defaultGammaBlueMax":1,"faceLightBrightness":100,"canChangeVolume":true,"brightnessBeforeFacelight":46,"minDDCVolume":0,"reapplyColorGain":false,"adaptivePaused":false,"volume":10,"maxNits":300,"softwareBrightness":1,"lockedBrightness":false,"connection":"unknown","serial":"37D8832A-2D66-02CA-B9F7-8F30A301B230","maxDDCBrightness":100,"contrast":50,"muteByteValueOff":2,"appleNativeEnabled":true,"defaultGammaBlueValue":1,"hotkeyInput2":246,"averageDDCReadNanoseconds":0,"minNits":0,"alwaysUseNetworkControl":false,"subzeroDimming":1,"applyBrightnessOnInputChange3":false,"minContrast":0,"audioMuted":false,"applyMuteValueOnMute":true,"showVolumeOSD":true,"maxContrastBeforeFacelight":100,"hotkeyInput1":246,"lux":83.25132751464844,"sensorBrightnessMapping":[{"target":21,"source":0},{"target":31,"source":13},{"target":34,"source":23},{"target":39,"source":39},{"target":41,"source":71},{"target":44,"source":80},{"target":45,"source":100},{"target":47,"source":135},{"target":49,"source":160},{"target":54,"source":190},{"target":58,"source":224},{"target":69,"source":313},{"target":91,"source":565},{"target":99,"source":702},{"target":100,"source":800}],"blueGain":50,"ddcEnabled":true,"greenGain":50,"sensorContrastMapping":[{"target":20,"source":0}],"syncContrastMapping":{},"id":1,"brightness":46,"locationBrightnessMapping":[{"target":-20,"source":-18},{"target":100,"source":87.09141326640953}],"power":true,"active":true,"forceDDC":false,"contrastBeforeBlackout":50,"networkEnabled":true,"maxDDCContrast":100,"hotkeyInput3":246,"schedules":[{"contrast":0.7,"negative":true,"minute":30,"brightness":0.7,"hour":0,"type":-1},{"contrast":0.8,"negative":false,"minute":20,"brightness":0.8,"hour":10,"type":-1},{"contrast":1,"negative":false,"minute":0,"brightness":1,"hour":0,"type":-1},{"contrast":0.6,"negative":false,"minute":30,"brightness":0.6,"hour":1,"type":-1},{"contrast":0.2,"negative":false,"minute":30,"brightness":0.2,"hour":7,"type":-1}],"rotation":0,"defaultGammaRedMin":0,"contrastOnInputChange2":75,"input":246,"neverUseNetworkControl":false,"adaptiveSubzero":true,"enabledControls":{"gamma":false,"network":true,"ddc":true,"appleNative":true},"name":"Built-in","useAlternateInputSwitching":false,"contrastOnInputChange1":75,"extendedColorGain":false,"maxContrast":100,"applyVolumeValueOnMute":false,"brightnessOnInputChange1":100,"blackOutMirroringAllowed":false,"averageDDCWriteNanoseconds":0,"brightnessBeforeBlackout":46,"systemAdaptiveBrightness":true,"nits":94.9365422129631,"subzero":false,"defaultGammaBlueMin":0,"maxBrightnessBeforeFacelight":100,"lockedContrastCurve":false,"lockedContrast":true,"blackOutEnabled":false,"isSource":true,"normalizedContrast":0.25,"nitsBrightnessMapping":[],"main":false}</string>
 	</array>
 	<key>enableSentry</key>
-	<false/>
+	<true/>
 	<key>firstRun</key>
 	<true/>
 	<key>firstRunAfterBuiltinUpgrade</key>
@@ -57,41 +154,45 @@
 	<false/>
 	<key>hotkeys</key>
 	<array>
-		<string>{"enabled":true,"identifier":"volumeUp","modifiers":8388864,"allowsHold":true,"keyCode":111}</string>
-		<string>{"enabled":true,"keyCode":122,"identifier":"preciseBrightnessDown","modifiers":8390912,"allowsHold":true}</string>
-		<string>{"enabled":true,"identifier":"preciseContrastDown","modifiers":8391424,"allowsHold":true,"keyCode":122}</string>
-		<string>{"enabled":false,"keyCode":29,"identifier":"orientation0","modifiers":4096,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"percent100","modifiers":4352,"allowsHold":false,"keyCode":21}</string>
-		<string>{"enabled":true,"keyCode":120,"identifier":"preciseContrastUp","modifiers":8391424,"allowsHold":true}</string>
-		<string>{"enabled":true,"identifier":"volumeDown","modifiers":8388864,"allowsHold":true,"keyCode":103}</string>
-		<string>{"enabled":true,"keyCode":18,"identifier":"percent25","modifiers":4352,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"contrastDown","modifiers":8389376,"allowsHold":true,"keyCode":122}</string>
-		<string>{"enabled":true,"keyCode":22,"identifier":"blackOutOthers","modifiers":6912,"allowsHold":false}</string>
-		<string>{"enabled":false,"identifier":"orientation270","modifiers":4096,"allowsHold":false,"keyCode":26}</string>
-		<string>{"enabled":true,"keyCode":22,"identifier":"blackOutNoMirroring","modifiers":4864,"allowsHold":false}</string>
-		<string>{"enabled":false,"identifier":"orientation90","modifiers":4096,"allowsHold":false,"keyCode":25}</string>
-		<string>{"enabled":true,"keyCode":19,"identifier":"percent50","modifiers":4352,"allowsHold":false}</string>
-		<string>{"enabled":false,"identifier":"restart","modifiers":6912,"allowsHold":false,"keyCode":37}</string>
-		<string>{"enabled":true,"keyCode":23,"identifier":"faceLight","modifiers":4352,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"preciseVolumeUp","modifiers":8390912,"allowsHold":true,"keyCode":111}</string>
-		<string>{"enabled":true,"keyCode":37,"identifier":"toggle","modifiers":6400,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"percent75","modifiers":4352,"allowsHold":false,"keyCode":20}</string>
-		<string>{"enabled":true,"keyCode":22,"identifier":"blackOut","modifiers":4352,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"brightnessUp","modifiers":8388864,"allowsHold":true,"keyCode":120}</string>
-		<string>{"enabled":false,"keyCode":28,"identifier":"orientation180","modifiers":4096,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"muteAudio","modifiers":8388864,"allowsHold":false,"keyCode":109}</string>
-		<string>{"enabled":true,"keyCode":120,"identifier":"contrastUp","modifiers":8389376,"allowsHold":true}</string>
-		<string>{"enabled":true,"identifier":"brightnessDown","modifiers":8388864,"allowsHold":true,"keyCode":122}</string>
-		<string>{"enabled":true,"keyCode":120,"identifier":"preciseBrightnessUp","modifiers":8390912,"allowsHold":true}</string>
-		<string>{"enabled":true,"identifier":"lunar","modifiers":2816,"allowsHold":false,"keyCode":37}</string>
-		<string>{"enabled":true,"keyCode":22,"identifier":"blackOutPowerOff","modifiers":6400,"allowsHold":false}</string>
-		<string>{"enabled":true,"identifier":"percent0","modifiers":4352,"allowsHold":false,"keyCode":29}</string>
-		<string>{"enabled":true,"keyCode":103,"identifier":"preciseVolumeDown","modifiers":8390912,"allowsHold":true}</string>
+		<string>{"allowsHold":true,"identifier":"preciseContrastDown","modifiers":8391424,"keyCode":122,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"orientation90","modifiers":4096,"keyCode":25,"enabled":false}</string>
+		<string>{"allowsHold":false,"identifier":"percent0","modifiers":4352,"keyCode":29,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"contrastUp","modifiers":8389376,"keyCode":120,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"preciseVolumeDown","modifiers":8390912,"keyCode":103,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"restart","modifiers":6912,"keyCode":37,"enabled":false}</string>
+		<string>{"allowsHold":true,"identifier":"brightnessUp","modifiers":8388864,"keyCode":120,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"blackOut","modifiers":4352,"keyCode":22,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"blackOutOthers","modifiers":6912,"keyCode":22,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"blackOutPowerOff","modifiers":6400,"keyCode":22,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"percent25","modifiers":4352,"keyCode":18,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"preciseBrightnessDown","modifiers":8390912,"keyCode":122,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"muteAudio","modifiers":8388864,"keyCode":109,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"percent100","modifiers":4352,"keyCode":21,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"preciseVolumeUp","modifiers":8390912,"keyCode":111,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"brightnessDown","modifiers":8388864,"keyCode":122,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"orientation0","modifiers":4096,"keyCode":29,"enabled":false}</string>
+		<string>{"allowsHold":true,"identifier":"volumeUp","modifiers":8388864,"keyCode":111,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"contrastDown","modifiers":8389376,"keyCode":122,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"percent75","modifiers":4352,"keyCode":20,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"toggle","modifiers":6400,"keyCode":37,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"volumeDown","modifiers":8388864,"keyCode":103,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"faceLight","modifiers":4352,"keyCode":23,"enabled":true}</string>
+		<string>{"allowsHold":true,"identifier":"preciseBrightnessUp","modifiers":8390912,"keyCode":120,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"orientation180","modifiers":4096,"keyCode":28,"enabled":false}</string>
+		<string>{"allowsHold":false,"identifier":"blackOutNoMirroring","modifiers":4864,"keyCode":22,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"orientation270","modifiers":4096,"keyCode":26,"enabled":false}</string>
+		<string>{"allowsHold":true,"identifier":"preciseContrastUp","modifiers":8391424,"keyCode":120,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"lunar","modifiers":2816,"keyCode":37,"enabled":true}</string>
+		<string>{"allowsHold":false,"identifier":"percent50","modifiers":4352,"keyCode":19,"enabled":true}</string>
 	</array>
+	<key>hotkeysMigratedToKeyboardShortcuts</key>
+	<true/>
 	<key>keepOptionsMenu</key>
 	<false/>
+	<key>lastLaunchVersion</key>
+	<string>6.11.3</string>
 	<key>launchCount</key>
-	<integer>213</integer>
+	<integer>359</integer>
 	<key>lunarProAccessDialogShown</key>
 	<true/>
 	<key>lunarProActive</key>
@@ -101,10 +202,18 @@
 	<key>mediaKeysNotified</key>
 	<true/>
 	<key>menuBarClosed</key>
-	<true/>
+	<false/>
+	<key>menuExpandedDisplays</key>
+	<array>
+		<string>37D8832A-2D66-02CA-B9F7-8F30A301B230</string>
+	</array>
 	<key>mergeBrightnessContrast</key>
 	<true/>
+	<key>modesBeforeMirroring</key>
+	<dict/>
 	<key>neverShowBlackoutPopover</key>
+	<true/>
+	<key>newBlackOutDisconnect</key>
 	<true/>
 	<key>newXDRMode</key>
 	<false/>
@@ -116,10 +225,16 @@
 	<true/>
 	<key>possiblyDisconnectedDisplays</key>
 	<array/>
+	<key>presetHotkeysMigratedToKeyboardShortcuts</key>
+	<true/>
 	<key>ranSentryMigration</key>
 	<true/>
 	<key>secondPhase</key>
 	<false/>
+	<key>sentryUserID</key>
+	<string>LFaS2qUXGVqtowCIeasN2uLvuNM=</string>
+	<key>settingsLastLocation</key>
+	<string>{"page":"menu-osd"}</string>
 	<key>showCustomPresets</key>
 	<false/>
 	<key>showFooterOnHover</key>
@@ -136,16 +251,33 @@
 	<true/>
 	<key>showStandardPresets</key>
 	<false/>
+	<key>showSystemControlsInMenu</key>
+	<false/>
 	<key>showVolumeSlider</key>
 	<true/>
 	<key>showXDRSelector</key>
 	<false/>
+	<key>subzeroActivation</key>
+	<integer>2</integer>
 	<key>subzeroContrast</key>
 	<false/>
 	<key>syncMode</key>
 	<false/>
+	<key>updateChannel</key>
+	<integer>0</integer>
 	<key>useAlternateBrightnessKeys</key>
 	<false/>
+	<key>virtualDisplaysLastSeen</key>
+	<dict>
+		<key>74EE2D70-9BC1-41A5-8538-597B1C9CC03B</key>
+		<date>2026-11-16T16:12:21Z</date>
+		<key>77E8CAEA-796A-4E5C-8867-0CA0EDCDE65A</key>
+		<date>2026-11-18T02:31:29Z</date>
+	</dict>
+	<key>xdrActivation</key>
+	<integer>2</integer>
+	<key>xdrActivationMigrated</key>
+	<true/>
 	<key>xdrContrast</key>
 	<false/>
 </dict>
