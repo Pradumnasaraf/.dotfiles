@@ -178,14 +178,12 @@ alias brewup='omz update && brew update && brew upgrade --yes && brew upgrade --
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/pradumnasaraf/.lmstudio/bin"
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/pradumnasaraf/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-
-# End of Docker CLI completions
 alias cagent="/Users/pradumnasaraf/Downloads/cagent\ 0.4.10\ -\ august\ 2025/cagent-darwin-arm64"
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 export JAVA_HOME="/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
 source /opt/homebrew/share/google-cloud-sdk/path.zsh.inc
 source /opt/homebrew/share/google-cloud-sdk/completion.zsh.inc
+
+# Terminal tab title: show "zsh" when idle
+ZSH_THEME_TERM_TITLE_IDLE="zsh"
+ZSH_THEME_TERM_TAB_TITLE_IDLE="zsh"
